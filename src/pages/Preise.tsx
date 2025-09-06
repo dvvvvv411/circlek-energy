@@ -19,7 +19,7 @@ const Preise = () => {
         title="Ceny Oleju Opałowego & Warunki | Od 70 gr/L | Blueline"
         description="Transparentne ceny oleju opałowego bez ukrytych kosztów. Standardowy olej od 70 gr/L, Premium od 73 gr/L. Gwarancja ceny do dostawy!"
         keywords="ceny oleju opałowego, koszty oleju, gwarancja ceny, transparentne ceny, tani olej opałowy"
-        canonicalUrl="https://bl-heizoel.de/preise"
+        canonicalUrl="https://bl-heizoel.de/ceny"
       />
       <Header />
       

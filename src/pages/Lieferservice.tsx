@@ -16,10 +16,10 @@ const Lieferservice = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Deutschlandweite Heizöl-Lieferung | 4-7 Werktage | Blueline"
-        description="Zuverlässige Heizöl-Lieferung deutschlandweit in 4-7 Werktagen. TÜV-geprüfte Tankfahrzeuge, kostenlose Lieferung ab 2.000L. Jetzt bestellen!"
-        keywords="Heizöl Lieferung Deutschland, Tankfahrzeuge, TÜV-geprüft, kostenlose Lieferung, Heizöl Transport"
-        canonicalUrl="https://bl-heizoel.de/lieferservice"
+        title="Dostawa Oleju Opałowego w Polsce | 4-7 Dni Roboczych | Blueline"
+        description="Niezawodna dostawa oleju opałowego w całej Polsce w 4-7 dni roboczych. Pojazdy z certyfikatem TÜV, bezpłatna dostawa od 2.000L. Zamów teraz!"
+        keywords="dostawa oleju opałowego Polska, pojazdy cysternowe, certyfikat TÜV, bezpłatna dostawa, transport oleju opałowego"
+        canonicalUrl="https://bl-heizoel.de/uslugi-dostawy"
       />
       <Header />
       
@@ -29,16 +29,16 @@ const Lieferservice = () => {
           <div className="text-center space-y-8">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm font-medium text-gray-700 mb-4">
               <Truck className="w-4 h-4 mr-2 text-primary" />
-              Deutschlandweite Premium-Lieferung
+              Premium Dostawa w Całej Polsce
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Deutschlandweite <span className="gradient-text">Heizöl-Lieferung</span>
+              Dostawa w Całej <span className="gradient-text">Polsce</span>
             </h1>
             
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Zuverlässige Lieferung in 4-7 Werktagen deutschlandweit. 
-              Professionelle Tankfahrzeuge, geschulte Fahrer und höchste Sicherheitsstandards.
+              Niezawodna dostawa w 4-7 dni roboczych w całej Polsce. 
+              Profesjonalne pojazdy cysternowe, przeszkoleni kierowcy i najwyższe standardy bezpieczeństwa.
             </p>
             
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto pt-8">

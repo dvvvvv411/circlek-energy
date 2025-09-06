@@ -10,10 +10,10 @@ const HeizoelSorten = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Heizöl-Sorten | Standard & Premium Heizöl | Blueline"
-        description="Hochwertige Heizöl-Sorten: Standard Heizöl EL ab 70 Cent/L und Premium Heizöl Plus ab 73 Cent/L. Schwefelarm, DIN-Norm konform. Jetzt bestellen!"
-        keywords="Heizöl Sorten, Standard Heizöl EL, Premium Heizöl Plus, schwefelarmes Heizöl, DIN 51603-1, Berlin"
-        canonicalUrl="https://bl-heizoel.de/heizoelsorten"
+        title="Rodzaje Oleju Opałowego | Standard & Premium | Blueline"
+        description="Wysokiej jakości olej opałowy: Standardowy od 70 gr/L i Premium Plus od 73 gr/L. Niskosiarczysty, zgodny z normą DIN. Zamów teraz!"
+        keywords="rodzaje oleju opałowego, standardowy olej opałowy, premium olej opałowy, niskosiarczysty olej, DIN 51603-1, Polska"
+        canonicalUrl="https://bl-heizoel.de/rodzaje-oleju-opalowego"
       />
       <Header />
       
@@ -23,14 +23,14 @@ const HeizoelSorten = () => {
           <div className="text-center space-y-6">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm font-medium text-gray-700 mb-4">
               <Droplets className="w-4 h-4 mr-2 text-primary" />
-              Premium Heizöl-Qualitäten
+              Premium Jakość Oleju Opałowego
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Hochwertige <span className="gradient-text">Heizöl-Sorten</span>
+              Wysokiej Jakości <span className="gradient-text">Olej Opałowy</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              Entdecken Sie unsere Premium-Heizölsorten für optimale Heizleistung und Effizienz. 
-              Alle Sorten erfüllen höchste Qualitätsstandards und sind besonders umweltfreundlich.
+              Odkryj nasze premium rodzaje oleju opałowego dla optymalnej wydajności grzewczej. 
+              Wszystkie rodzaje spełniają najwyższe standardy jakości i są szczególnie przyjazne dla środowiska.
             </p>
           </div>
         </div>
@@ -40,9 +40,9 @@ const HeizoelSorten = () => {
       <PageSection className="py-24">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Unsere Heizöl-Qualitäten</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nasze Jakości Oleju Opałowego</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Zwei erstklassige Heizölsorten für unterschiedliche Ansprüche und Budgets
+              Dwa pierwszorzędne rodzaje oleju opałowego dla różnych potrzeb i budżetów
             </p>
           </div>
           
@@ -57,32 +57,32 @@ const HeizoelSorten = () => {
                       <Droplets className="w-7 h-7 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold text-gray-900">Standard Heizöl EL</h3>
-                      <p className="text-sm text-gray-500 font-medium">DIN 51603-1 konform</p>
+                      <h3 className="text-2xl font-bold text-gray-900">Standardowy Olej Opałowy EL</h3>
+                      <p className="text-sm text-gray-500 font-medium">Zgodny z DIN 51603-1</p>
                     </div>
                   </div>
                   <div className="text-right">
                     <div className="text-3xl font-bold text-primary">0,70 €</div>
-                    <div className="text-sm text-gray-500">pro Liter</div>
+                    <div className="text-sm text-gray-500">za litr</div>
                   </div>
                 </div>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Bewährte Qualität für zuverlässige Wärme in Ihrem Zuhause. Entspricht DIN 51603-1 Standard.
+                  Sprawdzona jakość dla niezawodnego ciepła w Twoim domu. Zgodny ze standardem DIN 51603-1.
                 </p>
                 
                 <div className="space-y-3">
                   <div className="flex items-center text-sm text-gray-700">
                     <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
-                    Schwefelarm (max. 1000 mg/kg)
+                    Niskosiarczysty (maks. 1000 mg/kg)
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
                     <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
-                    Optimale Verbrennungsqualität
+                    Optymalna jakość spalania
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
                     <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
-                    Für alle modernen Ölheizungen geeignet
+                    Odpowiedni dla wszystkich nowoczesnych pieców olejowych
                   </div>
                 </div>
               </div>
@@ -102,32 +102,32 @@ const HeizoelSorten = () => {
                       <Shield className="w-7 h-7 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold text-gray-900">Premium Heizöl Plus</h3>
-                      <p className="text-sm text-primary font-medium">Mit Additiven</p>
+                      <h3 className="text-2xl font-bold text-gray-900">Premium Olej Opałowy Plus</h3>
+                      <p className="text-sm text-primary font-medium">Z dodatkami</p>
                     </div>
                   </div>
                   <div className="text-right">
                     <div className="text-3xl font-bold text-primary">0,73 €</div>
-                    <div className="text-sm text-gray-500">pro Liter</div>
+                    <div className="text-sm text-gray-500">za litr</div>
                   </div>
                 </div>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Höchste Qualität mit Additiven für bessere Performance und längere Haltbarkeit Ihrer Heizungsanlage.
+                  Najwyższa jakość z dodatkami dla lepszej wydajności i dłuższej żywotności Twojego systemu grzewczego.
                 </p>
                 
                 <div className="space-y-3">
                   <div className="flex items-center text-sm text-gray-700">
                     <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
-                    Schwefelarm (max. 50 mg/kg)
+                    Niskosiarczysty (maks. 50 mg/kg)
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
                     <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
-                    Mit Additiven gegen Alterung
+                    Z dodatkami przeciwstarzeniowymi
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
                     <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
-                    Verbesserte Fließeigenschaften
+                    Ulepszone właściwości płynięcia
                   </div>
                 </div>
               </div>

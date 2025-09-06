@@ -10,10 +10,10 @@ const Header = () => {
 
   const navigation = [
     { name: 'Strona główna', href: '/' },
-    { name: 'Rodzaje oleju', href: '/heizoelsorten' },
-    { name: 'Dostawa', href: '/lieferservice' },
-    { name: 'Ceny i warunki', href: '/preise' },
-    { name: 'O nas i serwis', href: '/ueber-uns' },
+    { name: 'Rodzaje oleju', href: '/rodzaje-oleju-opalowego' },
+    { name: 'Dostawa', href: '/uslugi-dostawy' },
+    { name: 'Ceny i warunki', href: '/ceny' },
+    { name: 'O nas i serwis', href: '/o-nas' },
   ];
 
   const isActive = (href: string) => location.pathname === href;

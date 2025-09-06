@@ -11,7 +11,7 @@ export const companyStructuredData = {
     "telephone": "+49-30-23258380",
     "contactType": "customer service",
     "email": "info@bl-heizoel.de",
-    "availableLanguage": "German"
+    "availableLanguage": "Polish"
   },
   "address": {
     "@type": "PostalAddress",
@@ -22,17 +22,17 @@ export const companyStructuredData = {
   },
   "foundingDate": "2023",
   "numberOfEmployees": "10-50",
-  "description": "Premium Heizöl ab 70 Cent pro Liter mit kostenloser Lieferung ab 2.000L deutschlandweit.",
+  "description": "Premium olej opałowy od 70 centów za litr z bezpłatną dostawą od 2.000L w całej Polsce.",
   "areaServed": {
     "@type": "Country",
-    "name": "Germany"
+    "name": "Poland"
   },
   "makesOffer": {
     "@type": "Offer",
     "itemOffered": {
       "@type": "Product",
-      "name": "Heizöl",
-      "description": "Premium Heizöl für Privat- und Geschäftskunden"
+      "name": "Olej Opałowy",
+      "description": "Premium olej opałowy dla klientów prywatnych i biznesowych"
     },
     "price": "0.70",
     "priceCurrency": "EUR",

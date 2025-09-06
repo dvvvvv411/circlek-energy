@@ -21,8 +21,8 @@ const Footer = () => {
                   className="h-12 w-auto mb-4"
                 />
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Ihr vertrauensvoller Partner für hochwertiges Heizöl. 
-                  Deutschlandweite Premium-Lieferung ab 70 Cent pro Liter.
+                  Twój zaufany partner w dostawie wysokiej jakości oleju opałowego. 
+                  Premium dostawa w całej Polsce od 70 gr za litr.
                 </p>
               </div>
             </div>
@@ -70,17 +70,17 @@ const Footer = () => {
             {/* Quick Links */}
             <div className="space-y-6">
               <h4 className="text-xl font-bold text-white relative">
-                Service
+                Usługi
                 <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-primary to-blue-600 rounded-full"></div>
               </h4>
               <ul className="space-y-4">
                 <li>
                   <a 
-                    href="#preisrechner" 
+                    href="#price-calculator" 
                     className="text-gray-300 hover:text-primary transition-all duration-300 flex items-center space-x-2 group"
                   >
                     <span className="w-2 h-2 bg-gray-600 rounded-full group-hover:bg-primary transition-colors duration-300"></span>
-                    <span>Preisrechner</span>
+                    <span>Kalkulator Cen</span>
                   </a>
                 </li>
                 <li>
@@ -94,20 +94,20 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link 
-                    to="/preise" 
+                    to="/ceny" 
                     className="text-gray-300 hover:text-primary transition-all duration-300 flex items-center space-x-2 group"
                   >
                     <span className="w-2 h-2 bg-gray-600 rounded-full group-hover:bg-primary transition-colors duration-300"></span>
-                    <span>Preise</span>
+                    <span>Ceny</span>
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/lieferservice" 
+                    to="/uslugi-dostawy" 
                     className="text-gray-300 hover:text-primary transition-all duration-300 flex items-center space-x-2 group"
                   >
                     <span className="w-2 h-2 bg-gray-600 rounded-full group-hover:bg-primary transition-colors duration-300"></span>
-                    <span>Lieferbedingungen</span>
+                    <span>Warunki Dostawy</span>
                   </Link>
                 </li>
               </ul>
@@ -116,44 +116,44 @@ const Footer = () => {
             {/* Legal */}
             <div className="space-y-6">
               <h4 className="text-xl font-bold text-white relative">
-                Rechtliches
+                Informacje Prawne
                 <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-primary to-blue-600 rounded-full"></div>
               </h4>
               <ul className="space-y-4">
                 <li>
                   <Link 
-                    to="/impressum" 
+                    to="/regulamin" 
                     className="text-gray-300 hover:text-primary transition-all duration-300 flex items-center space-x-2 group"
                   >
                     <span className="w-2 h-2 bg-gray-600 rounded-full group-hover:bg-primary transition-colors duration-300"></span>
-                    <span>Impressum</span>
+                    <span>Regulamin</span>
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/datenschutz" 
+                    to="/polityka-prywatnosci" 
                     className="text-gray-300 hover:text-primary transition-all duration-300 flex items-center space-x-2 group"
                   >
                     <span className="w-2 h-2 bg-gray-600 rounded-full group-hover:bg-primary transition-colors duration-300"></span>
-                    <span>Datenschutz</span>
+                    <span>Polityka Prywatności</span>
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/agb" 
+                    to="/warunki-sprzedazy" 
                     className="text-gray-300 hover:text-primary transition-all duration-300 flex items-center space-x-2 group"
                   >
                     <span className="w-2 h-2 bg-gray-600 rounded-full group-hover:bg-primary transition-colors duration-300"></span>
-                    <span>AGB</span>
+                    <span>Warunki Sprzedaży</span>
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/widerrufsrecht" 
+                    to="/prawo-odstapienia" 
                     className="text-gray-300 hover:text-primary transition-all duration-300 flex items-center space-x-2 group"
                   >
                     <span className="w-2 h-2 bg-gray-600 rounded-full group-hover:bg-primary transition-colors duration-300"></span>
-                    <span>Widerrufsrecht</span>
+                    <span>Prawo Odstąpienia</span>
                   </Link>
                 </li>
               </ul>
@@ -166,11 +166,11 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-between gap-6 flex-nowrap overflow-x-auto">
               <div className="flex items-center gap-6 text-gray-400 text-sm whitespace-nowrap">
-                <span>© 2025 Blueline. Alle Rechte vorbehalten.</span>
+                <span>© 2025 Blueline. Wszelkie prawa zastrzeżone.</span>
                 <span>Amtsgericht Charlottenburg (Berlin) HRB 251767 B | USt-ID: DE311826397</span>
               </div>
               <div className="text-sm text-gray-400 bg-white/5 px-4 py-2 rounded-full border border-white/10 whitespace-nowrap">
-                Made with ❤️ in Germany
+                Made with ❤️ dla Polski
               </div>
             </div>
           </div>

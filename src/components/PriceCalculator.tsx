@@ -68,10 +68,10 @@ const PriceCalculator = () => {
       {/* Header */}
       <div className="text-center mb-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">
-          Sofort-Preisrechner
+          Natychmiastowy Kalkulator Cen
         </h3>
         <p className="text-gray-600">
-          Ihr individueller Preis in Sekunden
+          Twoja indywidualna cena w kilka sekund
         </p>
       </div>
 
@@ -82,7 +82,7 @@ const PriceCalculator = () => {
           {/* Postal Code Input - First */}
           <div className="space-y-2">
             <Label htmlFor="postal-code" className="text-base font-semibold text-gray-900">
-              Ihre Postleitzahl
+              Twój Kod Pocztowy
             </Label>
             <div className="relative">
               <Input
@@ -90,9 +90,9 @@ const PriceCalculator = () => {
                 type="text"
                 value={postalCode}
                 onChange={(e) => setPostalCode(e.target.value)}
-                placeholder="Ihre PLZ"
+                placeholder="np. 00-001"
                 className="text-lg pl-12"
-                maxLength={5}
+                maxLength={6}
               />
               <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
                 <MapPin className="w-5 h-5 text-gray-400" />
@@ -103,7 +103,7 @@ const PriceCalculator = () => {
           {/* Quantity Input - Second */}
           <div className="space-y-3">
             <Label htmlFor="liters" className="text-base font-semibold text-gray-900">
-              Menge in Litern
+              Ilość w Litrach
             </Label>
             <div className="relative">
               <Input
@@ -113,7 +113,7 @@ const PriceCalculator = () => {
                 step="500"
                 value={liters}
                 onChange={(e) => setLiters(Number(e.target.value) || 0)}
-                placeholder="z.B. 3000"
+                placeholder="np. 3000"
                 className="text-lg pl-12"
               />
               <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
@@ -123,7 +123,7 @@ const PriceCalculator = () => {
             
             {/* Quick Select Buttons */}
             <div className="space-y-2">
-              <p className="text-sm text-gray-600">Beliebte Mengen:</p>
+              <p className="text-sm text-gray-600">Popularne ilości:</p>
               <div className="flex flex-wrap gap-2">
                 {quickSelectAmounts.map((amount) => (
                   <button
@@ -141,13 +141,13 @@ const PriceCalculator = () => {
               </div>
             </div>
             
-            <p className="text-sm text-gray-500">Mindestbestellmenge: 1500 Liter</p>
+            <p className="text-sm text-gray-500">Minimalna ilość zamówienia: 1500 litrów</p>
           </div>
 
           {/* Fuel Type Selection - Third */}
           <div className="space-y-3">
             <Label className="text-base font-semibold text-gray-900">
-              Heizöl-Typ wählen
+              Wybierz Typ Oleju Opałowego
             </Label>
             <RadioGroup value={fuelType} onValueChange={setFuelType} className="space-y-3">
               <div className="flex items-center space-x-3 p-4 rounded-xl border-2 border-gray-200 hover:border-primary/30 transition-colors">
@@ -155,10 +155,10 @@ const PriceCalculator = () => {
                 <div className="flex-1">
                   <Label htmlFor="standard" className="cursor-pointer">
                     <div className="flex justify-between items-center">
-                      <span className="font-medium">Standard Heizöl</span>
+                      <span className="font-medium">Standardowy Olej Opałowy</span>
                       <span className="text-primary font-bold whitespace-nowrap">0,70 €/L</span>
                     </div>
-                    <p className="text-sm text-gray-500">Bewährte Qualität zum besten Preis</p>
+                    <p className="text-sm text-gray-500">Sprawdzona jakość w najlepszej cenie</p>
                   </Label>
                 </div>
               </div>
@@ -168,10 +168,10 @@ const PriceCalculator = () => {
                 <div className="flex-1">
                   <Label htmlFor="premium" className="cursor-pointer">
                     <div className="flex justify-between items-center">
-                      <span className="font-medium">Premium Heizöl</span>
+                      <span className="font-medium">Premium Olej Opałowy</span>
                       <span className="text-primary font-bold whitespace-nowrap">0,73 €/L</span>
                     </div>
-                    <p className="text-sm text-gray-500">Höchste Qualität mit Additiven</p>
+                    <p className="text-sm text-gray-500">Najwyższa jakość z dodatkami</p>
                   </Label>
                 </div>
               </div>
@@ -183,31 +183,31 @@ const PriceCalculator = () => {
         <div className="flex flex-col h-full space-y-6">
           {/* Price Breakdown */}
           <div className="flex-1 flex flex-col bg-background border rounded-xl p-6 space-y-4">
-            <h4 className="text-lg font-semibold text-gray-900 mb-4">Preisübersicht</h4>
+            <h4 className="text-lg font-semibold text-gray-900 mb-4">Przegląd Cen</h4>
             
             <div className="flex justify-between items-center">
-              <span className="text-gray-600">Grundpreis <span className="whitespace-nowrap">({liters} L)</span></span>
+              <span className="text-gray-600">Cena podstawowa <span className="whitespace-nowrap">({liters} L)</span></span>
               <span className="font-semibold whitespace-nowrap">{basePrice.toFixed(2)} €</span>
             </div>
             
             <div className="flex justify-between items-center">
               <div className="flex items-center space-x-2">
                 <Truck className="w-4 h-4 text-gray-400" />
-                <span className="text-gray-600">Lieferung</span>
+                <span className="text-gray-600">Dostawa</span>
               </div>
               <span className={`font-semibold whitespace-nowrap ${deliveryFee === 0 ? 'text-green-600' : ''}`}>
-                {deliveryFee === 0 ? 'KOSTENLOS' : `${deliveryFee.toFixed(2)} €`}
+                {deliveryFee === 0 ? 'BEZPŁATNA' : `${deliveryFee.toFixed(2)} €`}
               </span>
             </div>
             
             {deliveryFee === 0 && (
               <div className="bg-green-100 text-green-800 px-3 py-2 rounded-lg text-sm font-medium text-center">
-                🎉 Sie sparen {45} € Lieferkosten!
+                🎉 Oszczędzasz {45} € na kosztach dostawy!
               </div>
             )}
             
             <div className="border-t pt-4">
-              <p className="text-xl font-bold text-gray-900">Gesamtpreis</p>
+              <p className="text-xl font-bold text-gray-900">Cena Całkowita</p>
               <p className="text-4xl font-extrabold text-primary whitespace-nowrap mt-1">{totalPrice.toFixed(2)} €</p>
             </div>
           </div>
@@ -216,20 +216,20 @@ const PriceCalculator = () => {
           <div className="mt-auto">
             <Button 
               onClick={handleOrder}
-              disabled={!postalCode || postalCode.length !== 5 || liters < 1500 || isProcessing}
+              disabled={!postalCode || postalCode.length < 5 || liters < 1500 || isProcessing}
               className="w-full bg-primary hover:bg-primary/90 text-white text-lg py-6 rounded-xl font-semibold transition-all hover-scale"
             >
               {isProcessing ? (
                 <div className="flex items-center space-x-2">
                   <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                  <span>Wird verarbeitet...</span>
+                  <span>Przetwarzanie...</span>
                 </div>
               ) : (
-                'Jetzt bestellen'
+                'Zamów Teraz'
               )}
             </Button>
             <p className="text-center text-sm text-gray-500 mt-3">
-              Kostenloser und unverbindlicher Preischeck
+              Bezpłatne i niezobowiązujące sprawdzenie ceny
             </p>
           </div>
         </div>

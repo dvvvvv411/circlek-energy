@@ -10,10 +10,10 @@ const UeberUns = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Über uns & Service | Blueline | Premium Heizöl-Händler"
-        description="Blueline – Ihr vertrauensvoller Partner für Heizöl. Innovatives Unternehmen aus Berlin mit über 100.000 zufriedenen Kunden deutschlandweit."
-        keywords="Blueline, Berlin, Heizöl Unternehmen, Premium Heizöl, Heizöl Berlin"
-        canonicalUrl="https://bl-heizoel.de/ueber-uns"
+        title="O nas & Usługi | Blueline | Premium Dostawca Oleju Opałowego"
+        description="Blueline – Twój zaufany partner w dostawie oleju opałowego. Innowacyjna firma z Berlina z ponad 100.000 zadowolonymi klientami w całej Polsce."
+        keywords="Blueline, Berlin, firma oleju opałowego, premium olej opałowy, olej opałowy Polska"
+        canonicalUrl="https://bl-heizoel.de/o-nas"
       />
       <Header />
       
@@ -23,16 +23,16 @@ const UeberUns = () => {
           <div className="text-center space-y-8">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm font-medium text-gray-700 mb-4">
               <Users className="w-4 h-4 mr-2 text-primary" />
-              Ihr Partner für Premium-Heizöl
+              Twój Partner w Premium Oleju Opałowym
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Über uns & <span className="gradient-text">Unser Service</span>
+              O nas & <span className="gradient-text">Nasze Usługi</span>
             </h1>
             
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ihr vertrauensvoller Partner für Heizöl in Berlin und ganz Deutschland. 
-              Digitaler Vorreiter mit Tradition und modernster Technik.
+              Twój zaufany partner w dostawie oleju opałowego w Berlinie i całej Polsce. 
+              Cyfrowy pionier z tradycją i najnowocześniejszą technologią.
             </p>
           </div>
         </div>

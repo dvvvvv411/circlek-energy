@@ -9,7 +9,7 @@ const Impressum = () => {
         title="Regulamin | Blueline | Informacje prawne"
         description="Regulamin Blueline (BL Trade GmbH) - Wszystkie informacje prawne, dane kontaktowe i wpis w rejestrze. Amtsgericht Charlottenburg (Berlin) HRB 251767 B."
         keywords="regulamin, Blueline, BL Trade GmbH, Berlin, HRB 251767 B, informacje prawne"
-        canonicalUrl="https://bl-heizoel.de/impressum"
+        canonicalUrl="https://bl-heizoel.de/regulamin"
       />
       <Header />
       
