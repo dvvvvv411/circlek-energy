@@ -15,8 +15,8 @@ const Index = () => {
   return (
     <div className="min-h-screen">
         <SEO
-        title="Blueline | Premium Olej Opałowy od 70 gr/L | Bezpłatna Dostawa od 2000L"
-        description="Premium olej opałowy od 70 groszy za litr z bezpłatną dostawą od 2000L w całej Polsce. Oblicz cenę już teraz!"
+        title="Blueline | Premium Olej Opałowy od 2,97 zł/L | Bezpłatna Dostawa od 2000L"
+        description="Premium olej opałowy od 2,97 zł za litr z bezpłatną dostawą od 2000L w całej Polsce. Oblicz cenę już teraz!"
         keywords="olej opałowy tani, zamówienie olej opałowy, dostawa oleju opałowego Polska, tanie ceny oleju, olej opałowy online"
         structuredData={structuredData}
         canonicalUrl="https://bl-heizoel.de/"

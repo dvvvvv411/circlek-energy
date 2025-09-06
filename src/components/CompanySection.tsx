@@ -93,7 +93,7 @@ const CompanySection = () => {
               
               <p>
                 Dzięki naszym zoptymalizowanym kanałom zakupów i bezpośredniej współpracy z wiodącymi rafineriami możemy zaoferować Ci 
-                <span className="font-semibold text-primary"> premium olej opałowy od 70 groszy za litr</span> - 
+                <span className="font-semibold text-primary"> premium olej opałowy od 2,97 zł za litr</span> - 
                 przy niezmiennie wysokiej jakości.
               </p>
               

@@ -49,7 +49,7 @@ const HeroSection = () => {
               </div>
               
               <h2 className="text-2xl lg:text-3xl text-gray-700 font-light leading-relaxed">
-                Premium olej opałowy od <span className="font-bold text-primary">70 groszy za litr</span>
+                Premium olej opałowy od <span className="font-bold text-primary">2,97 zł za litr</span>
                 <br />
                 <span className="text-xl text-gray-600">Bezpłatna dostawa od 2000L w całej Polsce</span>
               </h2>
@@ -61,10 +61,10 @@ const HeroSection = () => {
               <div className="grid md:grid-cols-3 gap-6 md:divide-x divide-gray-200">
                 <div className="flex flex-col items-center text-center space-y-2">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <span className="text-primary font-bold text-lg">€</span>
+                    <span className="text-primary font-bold text-lg">zł</span>
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Od <span className="whitespace-nowrap">70 groszy</span></p>
+                    <p className="font-medium text-gray-900">Od <span className="whitespace-nowrap">2,97 zł</span></p>
                     <p className="text-sm text-gray-600">za litr</p>
                   </div>
                 </div>

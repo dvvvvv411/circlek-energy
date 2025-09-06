@@ -128,7 +128,7 @@ const Lieferservice = () => {
                 <div className="text-center">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Najlepsze ceny</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Olej opałowy od 70 gr za litr - do 30% taniej niż lokalni dostawcy z jakością Premium.
+                    Olej opałowy od 2,97 zł za litr - do 30% taniej niż lokalni dostawcy z jakością Premium.
                   </p>
                 </div>
               </div>

@@ -16,8 +16,8 @@ const Preise = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Ceny Oleju Opałowego & Warunki | Od 70 gr/L | Blueline"
-        description="Transparentne ceny oleju opałowego bez ukrytych kosztów. Standardowy olej od 70 gr/L, Premium od 73 gr/L. Gwarancja ceny do dostawy!"
+        title="Ceny Oleju Opałowego & Warunki | Od 2,97 zł/L | Blueline"
+        description="Transparentne ceny oleju opałowego bez ukrytych kosztów. Standardowy olej od 2,97 zł/L, Premium od 3,10 zł/L. Gwarancja ceny do dostawy!"
         keywords="ceny oleju opałowego, koszty oleju, gwarancja ceny, transparentne ceny, tani olej opałowy"
         canonicalUrl="https://bl-heizoel.de/ceny"
       />

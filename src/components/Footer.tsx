@@ -22,7 +22,7 @@ const Footer = () => {
                 />
                 <p className="text-gray-300 text-sm leading-relaxed">
                   Twój zaufany partner w dostawie wysokiej jakości oleju opałowego. 
-                  Premium dostawa w całej Polsce od 70 gr za litr.
+                  Premium dostawa w całej Polsce od 2,97 zł za litr.
                 </p>
               </div>
             </div>
