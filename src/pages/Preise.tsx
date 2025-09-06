@@ -59,14 +59,14 @@ const Preise = () => {
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
               <div className="relative bg-white border border-gray-200 rounded-3xl p-10 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6">Standardowy Olej Opałowy EL</h3>
-                  <div className="relative inline-block">
-                    <div className="text-6xl font-bold text-primary mb-2">0,70 €</div>
-                    <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">z VAT</div>
+                  <div className="text-center mb-8">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-6">Standardowy Olej Opałowy EL</h3>
+                    <div className="relative inline-block">
+                      <div className="text-6xl font-bold text-primary mb-2">2,97 zł</div>
+                      <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">z VAT</div>
+                    </div>
+                    <div className="text-gray-600 font-medium">za litr</div>
                   </div>
-                  <div className="text-gray-600 font-medium">za litr</div>
-                </div>
                 
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
@@ -102,7 +102,7 @@ const Preise = () => {
                 <div className="text-center mb-8 pt-4">
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">Premium Olej Opałowy Plus</h3>
                   <div className="relative inline-block">
-                    <div className="text-6xl font-bold text-primary mb-2">0,73 €</div>
+                    <div className="text-6xl font-bold text-primary mb-2">3,10 zł</div>
                     <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">z VAT</div>
                   </div>
                   <div className="text-gray-600 font-medium">za litr</div>

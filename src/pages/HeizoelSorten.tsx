@@ -62,7 +62,7 @@ const HeizoelSorten = () => {
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-3xl font-bold text-primary">0,70 €</div>
+                    <div className="text-3xl font-bold text-primary">2,97 zł</div>
                     <div className="text-sm text-gray-500">za litr</div>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const HeizoelSorten = () => {
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-3xl font-bold text-primary">0,73 €</div>
+                    <div className="text-3xl font-bold text-primary">3,10 zł</div>
                     <div className="text-sm text-gray-500">za litr</div>
                   </div>
                 </div>

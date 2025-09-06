@@ -41,6 +41,6 @@ export const companyInfo = {
   fullAddress: "Düsseldorfer Str. 10, 10719 Berlin",
   
   // Company description
-  shortDescription: "Twój zaufany partner do wysokiej jakości oleju opałowego. Premium dostawa w całej Polsce od 70 centów za litr.",
-  longDescription: "Premium olej opałowy od 70 centów za litr z bezpłatną dostawą od 2000L w całej Polsce."
+  shortDescription: "Twój zaufany partner do wysokiej jakości oleju opałowego. Premium dostawa w całej Polsce od 2,97 zł za litr.",
+  longDescription: "Premium olej opałowy od 2,97 zł za litr z bezpłatną dostawą od 2000L w całej Polsce."
 };

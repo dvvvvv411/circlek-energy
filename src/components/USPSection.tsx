@@ -1,11 +1,11 @@
 
-import { Euro, Truck, Shield, TrendingDown, MapPin, Award } from 'lucide-react';
+import { Coins, Truck, Shield, TrendingDown, MapPin, Award } from 'lucide-react';
 
 const USPSection = () => {
   const usps = [
     {
-      icon: Euro,
-      title: "Od 70 groszy za litr",
+      icon: Coins,
+      title: "Od 2,97 zł za litr",
       description: "Wiodące na rynku ceny standardowego i premium oleju opałowego dzięki zoptymalizowanym zakupom i bezpośredniej współpracy z rafineriami.",
       highlight: "Do 30% taniej",
       accent: "from-emerald-500 to-green-600"

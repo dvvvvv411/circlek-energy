@@ -7,6 +7,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { MapPin, Droplets, Truck } from 'lucide-react';
 import { useCheckout } from '@/hooks/useCheckout';
 import { OrderData } from '@/services/orderService';
+import { formatPLN, formatPricePerLiter } from '@/lib/currency';
 
 const PriceCalculator = () => {
   const [fuelType, setFuelType] = useState('standard');
@@ -15,15 +16,17 @@ const PriceCalculator = () => {
   
   const { processOrder, isProcessing } = useCheckout();
 
+  // Pricing in PLN (Polish Złoty) - converted from EUR
   const prices = {
-    standard: 0.70,
-    premium: 0.73
+    standard: 2.97, // zł/L (converted from 0.70 EUR)
+    premium: 3.10   // zł/L (converted from 0.73 EUR)
   };
 
   const quickSelectAmounts = [1500, 3000, 5000];
 
+  // Calculate delivery fee - 190.93 zł for orders under 2000L, free above
   const calculateDeliveryFee = (literAmount: number) => {
-    return literAmount >= 2000 ? 0 : 45; // 45€ Liefergebühr unter 2000L
+    return literAmount >= 2000 ? 0 : 190.93; // 190.93 zł (converted from 45 EUR)
   };
 
   const calculateTotal = () => {
@@ -157,7 +160,7 @@ const PriceCalculator = () => {
                   <Label htmlFor="standard" className="cursor-pointer">
                     <div className="flex justify-between items-center">
                       <span className="font-medium">Standardowy Olej Opałowy</span>
-                      <span className="text-primary font-bold whitespace-nowrap">0,70 €/L</span>
+                      <span className="text-primary font-bold whitespace-nowrap">{formatPricePerLiter(prices.standard)}</span>
                     </div>
                     <p className="text-sm text-gray-500">Sprawdzona jakość w najlepszej cenie</p>
                   </Label>
@@ -170,7 +173,7 @@ const PriceCalculator = () => {
                   <Label htmlFor="premium" className="cursor-pointer">
                     <div className="flex justify-between items-center">
                       <span className="font-medium">Premium Olej Opałowy</span>
-                      <span className="text-primary font-bold whitespace-nowrap">0,73 €/L</span>
+                      <span className="text-primary font-bold whitespace-nowrap">{formatPricePerLiter(prices.premium)}</span>
                     </div>
                     <p className="text-sm text-gray-500">Najwyższa jakość z dodatkami</p>
                   </Label>
@@ -188,7 +191,7 @@ const PriceCalculator = () => {
             
             <div className="flex justify-between items-center">
               <span className="text-gray-600">Cena podstawowa <span className="whitespace-nowrap">({liters} L)</span></span>
-              <span className="font-semibold whitespace-nowrap">{basePrice.toFixed(2)} €</span>
+              <span className="font-semibold whitespace-nowrap">{formatPLN(basePrice)}</span>
             </div>
             
             <div className="flex justify-between items-center">
@@ -197,19 +200,19 @@ const PriceCalculator = () => {
                 <span className="text-gray-600">Dostawa</span>
               </div>
               <span className={`font-semibold whitespace-nowrap ${deliveryFee === 0 ? 'text-green-600' : ''}`}>
-                {deliveryFee === 0 ? 'BEZPŁATNA' : `${deliveryFee.toFixed(2)} €`}
+                {deliveryFee === 0 ? 'BEZPŁATNA' : formatPLN(deliveryFee)}
               </span>
             </div>
             
             {deliveryFee === 0 && (
               <div className="bg-green-100 text-green-800 px-3 py-2 rounded-lg text-sm font-medium text-center">
-                🎉 Oszczędzasz {45} € na kosztach dostawy!
+                🎉 Oszczędzasz {formatPLN(190.93)} na kosztach dostawy!
               </div>
             )}
             
             <div className="border-t pt-4">
               <p className="text-xl font-bold text-gray-900">Cena Całkowita</p>
-              <p className="text-4xl font-extrabold text-primary whitespace-nowrap mt-1">{totalPrice.toFixed(2)} €</p>
+              <p className="text-4xl font-extrabold text-primary whitespace-nowrap mt-1">{formatPLN(totalPrice)}</p>
             </div>
           </div>
 

@@ -22,7 +22,7 @@ export const companyStructuredData = {
   },
   "foundingDate": "2023",
   "numberOfEmployees": "10-50",
-  "description": "Premium olej opałowy od 70 centów za litr z bezpłatną dostawą od 2.000L w całej Polsce.",
+  "description": "Premium olej opałowy od 2,97 zł za litr z bezpłatną dostawą od 2.000L w całej Polsce.",
   "areaServed": {
     "@type": "Country",
     "name": "Poland"
@@ -34,8 +34,8 @@ export const companyStructuredData = {
       "name": "Olej Opałowy",
       "description": "Premium olej opałowy dla klientów prywatnych i biznesowych"
     },
-    "price": "0.70",
-    "priceCurrency": "EUR",
+    "price": "2.97",
+    "priceCurrency": "PLN",
     "availability": "https://schema.org/InStock"
   }
 };
