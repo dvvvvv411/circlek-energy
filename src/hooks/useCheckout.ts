@@ -33,8 +33,8 @@ export const useCheckout = () => {
       console.error('Order processing failed:', error);
       
       toast({
-        title: "Fehler bei der Bestellung",
-        description: error instanceof Error ? error.message : "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+        title: "Błąd zamówienia",
+        description: error instanceof Error ? error.message : "Wystąpił nieoczekiwany błąd. Spróbuj ponownie.",
         variant: "destructive",
       });
       

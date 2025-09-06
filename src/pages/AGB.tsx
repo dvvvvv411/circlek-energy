@@ -19,50 +19,50 @@ const AGB = () => {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 2 Vertragsschluss</h2>
-                <p>Die Darstellung der Produkte auf der Website stellt kein bindendes Angebot des Verkäufers dar. Der Käufer gibt durch das Absenden einer Bestellung ein verbindliches Angebot zum Kauf der bestellten Waren ab. Der Verkäufer kann dieses Angebot innerhalb von 5 Tagen annehmen.</p>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 2 Zawarcie umowy</h2>
+                <p>Prezentacja produktów na stronie internetowej nie stanowi wiążącej oferty Sprzedawcy. Kupujący składa wiążącą ofertę zakupu zamówionych towarów poprzez wysłanie zamówienia. Sprzedawca może przyjąć tę ofertę w ciągu 5 dni.</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 3 Preise und Zahlungsbedingungen</h2>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 3 Ceny i warunki płatności</h2>
                 <div className="space-y-4">
-                  <p>Die angegebenen Preise sind Endpreise und enthalten die gesetzliche Umsatzsteuer. Zusätzliche Liefer- und Versandkosten werden gesondert ausgewiesen.</p>
-                  <p>Die Zahlung erfolgt wahlweise per:</p>
+                  <p>Podane ceny są cenami końcowymi i zawierają ustawowy podatek VAT. Dodatkowe koszty dostawy i wysyłki są wykazywane oddzielnie.</p>
+                  <p>Płatność można dokonać poprzez:</p>
                   <ul className="list-disc pl-6 space-y-1">
-                    <li>Vorkasse per Überweisung</li>
-                    <li>Rechnung (nur bei Geschäftskunden nach Bonitätsprüfung)</li>
-                    <li>Barzahlung bei Lieferung</li>
+                    <li>Przedpłata przez przelew</li>
+                    <li>Faktura (tylko dla klientów biznesowych po sprawdzeniu zdolności kredytowej)</li>
+                    <li>Płatność gotówką przy dostawie</li>
                   </ul>
                 </div>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 4 Lieferung und Lieferzeiten</h2>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 4 Dostawa i terminy dostaw</h2>
                 <div className="space-y-4">
-                  <p>Die Lieferung erfolgt deutschlandweit. Ab einer Bestellmenge von 2.000 Litern ist die Lieferung kostenfrei.</p>
-                  <p>Die Lieferzeit beträgt in der Regel 3-5 Werktage nach Zahlungseingang. Bei Vorkasse erfolgt die Lieferung nach Zahlungseingang.</p>
-                  <p>Der Verkäufer ist zu Teillieferungen berechtigt, sofern dies für den Käufer zumutbar ist.</p>
+                  <p>Dostawa odbywa się w całej Polsce. Od ilości zamówienia 2 000 litrów dostawa jest bezpłatna.</p>
+                  <p>Czas dostawy wynosi zazwyczaj 4-7 dni roboczych po otrzymaniu płatności. W przypadku przedpłaty dostawa następuje po otrzymaniu płatności.</p>
+                  <p>Sprzedawca ma prawo do częściowych dostaw, o ile jest to rozsądne dla Kupującego.</p>
                 </div>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 5 Eigentumsvorbehalt</h2>
-                <p>Die gelieferte Ware bleibt bis zur vollständigen Bezahlung aller Forderungen aus dem Liefervertrag Eigentum des Verkäufers.</p>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 5 Zastrzeżenie własności</h2>
+                <p>Dostarczone towary pozostają własnością Sprzedawcy do momentu pełnej zapłaty wszystkich należności z umowy dostawy.</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 6 Gewährleistung</h2>
-                <p>Es gelten die gesetzlichen Gewährleistungsbestimmungen. Gewährleistungsansprüche verjähren bei Verbrauchern in 2 Jahren, bei Unternehmern in einem Jahr ab Ablieferung der Ware.</p>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 6 Gwarancja</h2>
+                <p>Obowiązują ustawowe przepisy gwarancyjne. Roszczenia gwarancyjne przedawniają się u konsumentów w ciągu 2 lat, u przedsiębiorców w ciągu roku od dostarczenia towaru.</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 7 Haftung</h2>
-                <p>Die Haftung des Verkäufers für Schäden ist ausgeschlossen, soweit nachfolgend nichts anderes bestimmt ist. Dies gilt auch für die Haftung der gesetzlichen Vertreter und Erfüllungsgehilfen des Verkäufers.</p>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 7 Odpowiedzialność</h2>
+                <p>Odpowiedzialność Sprzedawcy za szkody jest wyłączona, o ile poniżej nie określono inaczej. Dotyczy to również odpowiedzialności przedstawicieli ustawowych i pomocników wykonawczych Sprzedawcy.</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 8 Schlussbestimmungen</h2>
-                <p>Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Gerichtsstand für alle Streitigkeiten ist Berlin, sofern der Käufer Kaufmann ist.</p>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 8 Postanowienia końcowe</h2>
+                <p>Obowiązuje prawo Polski z wyłączeniem Konwencji Narodów Zjednoczonych o umowach międzynarodowej sprzedaży towarów. Miejscem właściwości sądowej dla wszystkich sporów jest Berlin, jeżeli Kupujący jest przedsiębiorcą.</p>
               </section>
             </div>
           </div>

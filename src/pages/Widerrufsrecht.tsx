@@ -27,51 +27,51 @@ const Widerrufsrecht = () => {
                 <p>Masz prawo odstąpić od tej umowy w ciągu czternastu dni bez podawania przyczyn.</p>
                 <p className="mt-2">Okres na odstąpienie wynosi czternaście dni od dnia, w którym Ty lub wskazana przez Ciebie osoba trzecia, która nie jest przewoźnikiem, weszła w posiadanie towaru.</p>
                 
-                <h3 className="text-lg font-semibold mb-2 mt-6">Ausübung des Widerrufsrechts</h3>
-                <p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns</p>
+                <h3 className="text-lg font-semibold mb-2 mt-6">Wykonywanie prawa odstąpienia</h3>
+                <p>Aby skorzystać z prawa odstąpienia, musisz nas poinformować</p>
                 <div className="ml-4 mt-2 space-y-1">
                   <p><strong>BL Trade GmbH</strong></p>
                   <p>Düsseldorfer Str. 10</p>
                   <p>10719 Berlin</p>
                   <p>E-Mail: info@bl-heizoel.de</p>
                 </div>
-                <p className="mt-2">mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.</p>
+                <p className="mt-2">za pomocą jednoznacznego oświadczenia (np. listu wysłanego pocztą lub e-maila) o Twojej decyzji odstąpienia od tej umowy.</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Widerrufsfolgen</h2>
-                <p>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist.</p>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Skutki odstąpienia</h2>
+                <p>Jeśli odstąpisz od tej umowy, zwrócimy Ci wszystkie płatności, które od Ciebie otrzymaliśmy, w tym koszty dostawy (z wyjątkiem dodatkowych kosztów wynikających z tego, że wybrałeś inny rodzaj dostawy niż oferowana przez nas najtańsza standardowa dostawa), niezwłocznie i najpóźniej w ciągu czternastu dni od dnia, w którym otrzymaliśmy zawiadomienie o Twoim odstąpieniu od tej umowy.</p>
                 
-                <p className="mt-4">Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.</p>
+                <p className="mt-4">Do tego zwrotu używamy tego samego sposobu płatności, którego użyłeś w pierwotnej transakcji, chyba że wyraźnie uzgodniono z Tobą coś innego; w żadnym przypadku nie będą Ci naliczane opłaty z tytułu tego zwrotu.</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Besondere Hinweise</h2>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Uwagi szczególne</h2>
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-                  <h3 className="text-lg font-semibold mb-2">Wichtiger Hinweis zu Heizöl-Lieferungen</h3>
-                  <p>Das Widerrufsrecht erlischt bei Verträgen zur Lieferung von Waren, die nicht vorgefertigt sind und für deren Herstellung eine individuelle Auswahl oder Bestimmung durch den Verbraucher maßgeblich ist oder die eindeutig auf die persönlichen Bedürfnisse des Verbrauchers zugeschnitten sind.</p>
-                  <p className="mt-2">Bei Heizöl-Lieferungen kann das Widerrufsrecht unter bestimmten Umständen eingeschränkt sein, insbesondere wenn die Lieferung bereits erfolgt ist und das Heizöl in Ihren Tank eingefüllt wurde.</p>
+                  <h3 className="text-lg font-semibold mb-2">Ważna uwaga dotycząca dostaw oleju opałowego</h3>
+                  <p>Prawo odstąpienia wygasa w przypadku umów dostawy towarów, które nie są prefabrykowane i dla których produkcji decydujący jest indywidualny wybór lub określenie przez konsumenta lub które są wyraźnie dostosowane do osobistych potrzeb konsumenta.</p>
+                  <p className="mt-2">W przypadku dostaw oleju opałowego prawo odstąpienia może być ograniczone w pewnych okolicznościach, szczególnie gdy dostawa już się odbyła i olej opałowy został wpompowany do Twojego zbiornika.</p>
                 </div>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Muster-Widerrufsformular</h2>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Wzór formularza odstąpienia</h2>
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
-                  <p className="font-semibold mb-4">Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück:</p>
+                  <p className="font-semibold mb-4">Jeśli chcesz odstąpić od umowy, wypełnij ten formularz i odeślij go:</p>
                   <div className="space-y-2 text-sm">
-                    <p>An: BL Trade GmbH, Düsseldorfer Str. 10, 10719 Berlin</p>
+                    <p>Do: BL Trade GmbH, Düsseldorfer Str. 10, 10719 Berlin</p>
                     <p>E-Mail: info@bl-heizoel.de</p>
                     <br />
-                    <p>Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden Waren (*):</p>
+                    <p>Niniejszym odstępuję/odstępujemy (*) od umowy sprzedaży następujących towarów (*):</p>
                     <p>_________________________________</p>
                     <br />
-                    <p>Bestellt am (*)/erhalten am (*): _________________________________</p>
-                    <p>Name des/der Verbraucher(s): _________________________________</p>
-                    <p>Anschrift des/der Verbraucher(s): _________________________________</p>
-                    <p>Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier): _________________________________</p>
-                    <p>Datum: _________________________________</p>
+                    <p>Zamówione dnia (*)/otrzymane dnia (*): _________________________________</p>
+                    <p>Nazwisko konsumenta/konsumentów: _________________________________</p>
+                    <p>Adres konsumenta/konsumentów: _________________________________</p>
+                    <p>Podpis konsumenta/konsumentów (tylko w przypadku notyfikacji na papierze): _________________________________</p>
+                    <p>Data: _________________________________</p>
                     <br />
-                    <p className="text-xs">(*) Unzutreffendes streichen.</p>
+                    <p className="text-xs">(*) Niepotrzebne skreślić.</p>
                   </div>
                 </div>
               </section>

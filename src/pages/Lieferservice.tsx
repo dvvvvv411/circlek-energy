@@ -65,7 +65,7 @@ const Lieferservice = () => {
                       <Shield className="w-7 h-7 text-primary" />
                     </div>
                     <div className="text-center">
-                      <p className="text-2xl font-bold text-gray-900">100% Sicher</p>
+                      <p className="text-2xl font-bold text-gray-900">100% Bezpiecznie</p>
                       <p className="text-sm text-gray-600">Certyfikat TÜV</p>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ const Lieferservice = () => {
                     </div>
                     <div className="text-center">
                       <p className="text-2xl font-bold text-gray-900">Bezpłatnie</p>
-                      <p className="text-sm text-gray-600">ab 2.000L</p>
+                      <p className="text-sm text-gray-600">od 2 000L</p>
                     </div>
                   </div>
                 </div>
@@ -244,7 +244,7 @@ const Lieferservice = () => {
                       <span className="font-semibold text-gray-900">Małe pojazdy</span>
                       <p className="text-sm text-gray-600">Do wąskich dojazdów</p>
                     </div>
-                    <span className="text-xl font-bold text-primary">bis 3.000L</span>
+                    <span className="text-xl font-bold text-primary">do 3 000L</span>
                   </div>
                   
                   <div className="flex justify-between items-center p-4 bg-primary/5 rounded-xl border border-primary/20">
@@ -252,7 +252,7 @@ const Lieferservice = () => {
                       <span className="font-semibold text-gray-900">Pojazdy standardowe</span>
                       <p className="text-sm text-gray-600">Najczęściej używany rozmiar</p>
                     </div>
-                    <span className="text-xl font-bold text-primary">bis 10.000L</span>
+                    <span className="text-xl font-bold text-primary">do 10 000L</span>
                   </div>
                   
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
@@ -260,7 +260,7 @@ const Lieferservice = () => {
                       <span className="font-semibold text-gray-900">Duże pojazdy</span>
                       <p className="text-sm text-gray-600">Do dużych zbiorników</p>
                     </div>
-                    <span className="text-xl font-bold text-primary">bis 25.000L</span>
+                    <span className="text-xl font-bold text-primary">do 25 000L</span>
                   </div>
                 </div>
               </div>
