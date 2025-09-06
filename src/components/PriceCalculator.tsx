@@ -37,8 +37,9 @@ const PriceCalculator = () => {
   };
 
   const handleOrder = async () => {
-    // Validate inputs
-    if (!postalCode || postalCode.length !== 5) {
+    // Validate inputs - Polish postal code format: NN-NNN
+    const polishPostalCodeRegex = /^\d{2}-\d{3}$/;
+    if (!postalCode || !polishPostalCodeRegex.test(postalCode)) {
       return;
     }
     
@@ -216,7 +217,7 @@ const PriceCalculator = () => {
           <div className="mt-auto">
             <Button 
               onClick={handleOrder}
-              disabled={!postalCode || postalCode.length < 5 || liters < 1500 || isProcessing}
+              disabled={!postalCode || !/^\d{2}-\d{3}$/.test(postalCode) || liters < 1500 || isProcessing}
               className="w-full bg-primary hover:bg-primary/90 text-white text-lg py-6 rounded-xl font-semibold transition-all hover-scale"
             >
               {isProcessing ? (

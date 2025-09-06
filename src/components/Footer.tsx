@@ -84,13 +84,13 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a 
-                    href="#kontakt" 
+                  <Link 
+                    to="/o-nas#kontakt" 
                     className="text-gray-300 hover:text-primary transition-all duration-300 flex items-center space-x-2 group"
                   >
                     <span className="w-2 h-2 bg-gray-600 rounded-full group-hover:bg-primary transition-colors duration-300"></span>
                     <span>Kontakt</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link 

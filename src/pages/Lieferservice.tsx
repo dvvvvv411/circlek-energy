@@ -50,8 +50,8 @@ const Lieferservice = () => {
                       <Truck className="w-7 h-7 text-primary" />
                     </div>
                     <div className="text-center">
-                      <p className="text-2xl font-bold text-gray-900">4-7 Werktage</p>
-                      <p className="text-sm text-gray-600">Deutschlandweit</p>
+                      <p className="text-2xl font-bold text-gray-900">4-7 dni roboczych</p>
+                      <p className="text-sm text-gray-600">w całej Polsce</p>
                     </div>
                   </div>
                 </div>
@@ -66,7 +66,7 @@ const Lieferservice = () => {
                     </div>
                     <div className="text-center">
                       <p className="text-2xl font-bold text-gray-900">100% Sicher</p>
-                      <p className="text-sm text-gray-600">TÜV-Zertifiziert</p>
+                      <p className="text-sm text-gray-600">Certyfikat TÜV</p>
                     </div>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ const Lieferservice = () => {
                       <CheckCircle className="w-7 h-7 text-primary" />
                     </div>
                     <div className="text-center">
-                      <p className="text-2xl font-bold text-gray-900">Kostenlos</p>
+                      <p className="text-2xl font-bold text-gray-900">Bezpłatnie</p>
                       <p className="text-sm text-gray-600">ab 2.000L</p>
                     </div>
                   </div>
@@ -95,9 +95,9 @@ const Lieferservice = () => {
       <PageSection className="py-24">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Warum Blueline?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Dlaczego Blueline?</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Über 100.000 zufriedene Kunden vertrauen auf unsere Expertise und Premium-Service
+              Ponad 100.000 zadowolonych klientów ufa naszej ekspertyzie i serwisowi Premium
             </p>
           </div>
           
@@ -110,9 +110,9 @@ const Lieferservice = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Kundenvertrauen</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Zaufanie klientów</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Kunden in ganz Deutschland vertrauen auf unsere Zuverlässigkeit und Premium-Expertise.
+                    Klienci w całej Polsce ufają naszej niezawodności i ekspertyzie Premium.
                   </p>
                 </div>
               </div>
@@ -126,9 +126,9 @@ const Lieferservice = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Beste Preise</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Najlepsze ceny</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Heizöl ab 70 Cent pro Liter - bis zu 30% günstiger als lokale Anbieter mit Premium-Qualität.
+                    Olej opałowy od 70 gr za litr - do 30% taniej niż lokalni dostawcy z jakością Premium.
                   </p>
                 </div>
               </div>
@@ -142,9 +142,9 @@ const Lieferservice = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">100.000+ Kunden</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">100.000+ klientów</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Über 100.000 zufriedene Kunden vertrauen bereits auf unseren Premium-Service.
+                    Ponad 100.000 zadowolonych klientów już ufa naszemu serwisowi Premium.
                   </p>
                 </div>
               </div>
@@ -158,9 +158,9 @@ const Lieferservice = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Sicherheit garantiert</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Gwarancja bezpieczeństwa</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Alle Tankfahrzeuge sind TÜV-geprüft und entsprechen neuesten Sicherheitsstandards.
+                    Wszystkie cysterny mają certyfikat TÜV i spełniają najnowsze standardy bezpieczeństwa.
                   </p>
                 </div>
               </div>
@@ -173,24 +173,24 @@ const Lieferservice = () => {
       <PageSection background="gray" className="py-24">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Moderne Tankfahrzeuge & Technik</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nowoczesne cysterny i technologia</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Unsere hochmoderne Fahrzeugflotte garantiert sichere und umweltfreundliche Lieferung
+              Nasza najnowocześniejsza flota pojazdów gwarantuje bezpieczną i przyjazną dla środowiska dostawę
             </p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Hochmoderne Flotte</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Najnowocześniejsza flota</h3>
                 <div className="space-y-6">
                   <div className="group flex items-start space-x-4 p-4 rounded-xl hover:bg-white/50 transition-all duration-300">
                     <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
                       <CheckCircle className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900 text-lg mb-1">TÜV-geprüfte Tankfahrzeuge</p>
-                      <p className="text-gray-600">Regelmäßige Wartung und Sicherheitsprüfungen garantieren höchste Standards</p>
+                      <p className="font-bold text-gray-900 text-lg mb-1">Cysterny z certyfikatem TÜV</p>
+                      <p className="text-gray-600">Regularna konserwacja i kontrole bezpieczeństwa gwarantują najwyższe standardy</p>
                     </div>
                   </div>
                   
@@ -199,8 +199,8 @@ const Lieferservice = () => {
                       <CheckCircle className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900 text-lg mb-1">GPS-Tracking in Echtzeit</p>
-                      <p className="text-gray-600">Transparente Verfolgung Ihrer Lieferung jederzeit möglich</p>
+                      <p className="font-bold text-gray-900 text-lg mb-1">Śledzenie GPS w czasie rzeczywistym</p>
+                      <p className="text-gray-600">Transparentne śledzenie Twojej dostawy w każdej chwili</p>
                     </div>
                   </div>
                   
@@ -209,8 +209,8 @@ const Lieferservice = () => {
                       <CheckCircle className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900 text-lg mb-1">Umweltfreundliche Motoren</p>
-                      <p className="text-gray-600">Euro 6 Standard für minimale Emissionen und Umweltschutz</p>
+                      <p className="font-bold text-gray-900 text-lg mb-1">Ekologiczne silniki (Euro 6)</p>
+                      <p className="text-gray-600">Standard Euro 6 dla minimalnych emisji i ochrony środowiska</p>
                     </div>
                   </div>
                   
@@ -219,8 +219,8 @@ const Lieferservice = () => {
                       <CheckCircle className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900 text-lg mb-1">Geschulte Fahrer</p>
-                      <p className="text-gray-600">ADR-zertifiziert für professionellen Gefahrguttransport</p>
+                      <p className="font-bold text-gray-900 text-lg mb-1">Przeszkoleni kierowcy (ADR)</p>
+                      <p className="text-gray-600">Certyfikat ADR dla profesjonalnego transportu materiałów niebezpiecznych</p>
                     </div>
                   </div>
                 </div>
@@ -234,31 +234,31 @@ const Lieferservice = () => {
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <Truck className="w-10 h-10 text-primary" />
                   </div>
-                  <h4 className="text-2xl font-bold text-gray-900">Tankvolumen-Optionen</h4>
-                  <p className="text-gray-600 mt-2">Für jeden Bedarf das richtige Fahrzeug</p>
+                  <h4 className="text-2xl font-bold text-gray-900">Opcje pojemności cystern</h4>
+                  <p className="text-gray-600 mt-2">Odpowiedni pojazd dla każdych potrzeb</p>
                 </div>
                 
                 <div className="space-y-4">
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <div>
-                      <span className="font-semibold text-gray-900">Kleinfahrzeuge</span>
-                      <p className="text-sm text-gray-600">Für enge Zufahrten</p>
+                      <span className="font-semibold text-gray-900">Małe pojazdy</span>
+                      <p className="text-sm text-gray-600">Do wąskich dojazdów</p>
                     </div>
                     <span className="text-xl font-bold text-primary">bis 3.000L</span>
                   </div>
                   
                   <div className="flex justify-between items-center p-4 bg-primary/5 rounded-xl border border-primary/20">
                     <div>
-                      <span className="font-semibold text-gray-900">Standardfahrzeuge</span>
-                      <p className="text-sm text-gray-600">Meist verwendete Größe</p>
+                      <span className="font-semibold text-gray-900">Pojazdy standardowe</span>
+                      <p className="text-sm text-gray-600">Najczęściej używany rozmiar</p>
                     </div>
                     <span className="text-xl font-bold text-primary">bis 10.000L</span>
                   </div>
                   
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <div>
-                      <span className="font-semibold text-gray-900">Großfahrzeuge</span>
-                      <p className="text-sm text-gray-600">Für große Tanks</p>
+                      <span className="font-semibold text-gray-900">Duże pojazdy</span>
+                      <p className="text-sm text-gray-600">Do dużych zbiorników</p>
                     </div>
                     <span className="text-xl font-bold text-primary">bis 25.000L</span>
                   </div>
@@ -273,9 +273,9 @@ const Lieferservice = () => {
       <PageSection className="py-24">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Service & Sicherheit</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Serwis i bezpieczeństwo</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Höchste Standards bei Sicherheit, Pünktlichkeit und professionellem Service
+              Najwyższe standardy bezpieczeństwa, punktualności i profesjonalnego serwisu
             </p>
           </div>
           
@@ -290,26 +290,26 @@ const Lieferservice = () => {
                   <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl flex items-center justify-center mb-4">
                     <Shield className="w-8 h-8 text-green-600" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sicherheitsgarantie</h3>
-                  <p className="text-gray-600 text-sm mb-4">Umfassender Schutz für jeden Transport</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Gwarancja bezpieczeństwa</h3>
+                  <p className="text-gray-600 text-sm mb-4">Kompleksowa ochrona każdego transportu</p>
                 </div>
                 
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Vollversicherung aller Transporte</p>
+                    <p className="text-gray-700">Pełne ubezpieczenie wszystkich transportów</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">ADR-zertifizierte Fahrer</p>
+                    <p className="text-gray-700">Kierowcy z certyfikatem ADR</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Notfall-Hotline 24/7</p>
+                    <p className="text-gray-700">Infolinia awaryjna 24/7</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Umweltschutz-Zertifikat</p>
+                    <p className="text-gray-700">Certyfikat ochrony środowiska</p>
                   </div>
                 </div>
               </div>
@@ -325,26 +325,26 @@ const Lieferservice = () => {
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl flex items-center justify-center mb-4">
                     <Clock className="w-8 h-8 text-blue-600" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Pünktliche Lieferung</h3>
-                  <p className="text-gray-600 text-sm mb-4">Zuverlässig und termingerecht</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Punktualna dostawa</h3>
+                  <p className="text-gray-600 text-sm mb-4">Niezawodnie i terminowo</p>
                 </div>
                 
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">SMS-Benachrichtigung</p>
+                    <p className="text-gray-700">Powiadomienia SMS</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">2-Stunden-Zeitfenster</p>
+                    <p className="text-gray-700">2-godzinne okno czasowe</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Lieferung Mo-Sa 7-17 Uhr</p>
+                    <p className="text-gray-700">Dostawa Pn-Sob 7-17</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Express-Service verfügbar</p>
+                    <p className="text-gray-700">Dostępny serwis ekspresowy</p>
                   </div>
                 </div>
               </div>
@@ -360,26 +360,26 @@ const Lieferservice = () => {
                   <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-violet-100 rounded-2xl flex items-center justify-center mb-4">
                     <Truck className="w-8 h-8 text-purple-600" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Professioneller Service</h3>
-                  <p className="text-gray-600 text-sm mb-4">Rundum-Betreuung vor Ort</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Profesjonalny serwis</h3>
+                  <p className="text-gray-600 text-sm mb-4">Kompleksowa obsługa na miejscu</p>
                 </div>
                 
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Tankprüfung inklusive</p>
+                    <p className="text-gray-700">Kontrola zbiornika w cenie</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Saubere Befüllung</p>
+                    <p className="text-gray-700">Czyste napełnianie</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Digitale Rechnung</p>
+                    <p className="text-gray-700">Cyfrowa faktura</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700">Kundendienst vor Ort</p>
+                    <p className="text-gray-700">Obsługa klienta na miejscu</p>
                   </div>
                 </div>
               </div>
@@ -393,11 +393,11 @@ const Lieferservice = () => {
         <div className="max-w-5xl mx-auto text-center">
           <div className="mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Jetzt Heizöl bestellen und <span className="gradient-text">sparen!</span>
+              Zamów teraz olej opałowy i <span className="gradient-text">oszczędzaj!</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Deutschlandweite Lieferung in 4-7 Werktagen. Kostenlose Lieferung ab 2.000 Liter.
-              Berechnen Sie jetzt online Ihren individuellen Preis.
+              Dostawa w całej Polsce w 4-7 dni roboczych. Bezpłatna dostawa od 2.000 litrów.
+              Oblicz teraz online swoją indywidualną cenę.
             </p>
           </div>
           
@@ -407,14 +407,14 @@ const Lieferservice = () => {
                 <div className="absolute inset-0 bg-primary rounded-xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
                 <Button size="lg" className="relative bg-primary hover:bg-primary/90 text-white text-lg px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
                   <Calculator className="w-5 h-5 mr-3" />
-                  zum Preisrechner
+                  do kalkulatora cen
                 </Button>
               </div>
             </button>
             
             <Link to="/preise" className="group">
               <Button variant="outline" size="lg" className="text-lg px-10 py-4 rounded-xl border-2 border-white/30 bg-white/10 text-gray-900 hover:bg-white hover:text-primary backdrop-blur-sm transition-all duration-300">
-                Preise anzeigen
+                Pokaż ceny
               </Button>
             </Link>
           </div>
@@ -425,7 +425,7 @@ const Lieferservice = () => {
                 <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
               ))}
             </div>
-            <span className="text-gray-700 font-medium">Über 100.000 zufriedene Kunden deutschlandweit</span>
+            <span className="text-gray-700 font-medium">Ponad 100.000 zadowolonych klientów w całej Polsce</span>
           </div>
         </div>
       </PageSection>

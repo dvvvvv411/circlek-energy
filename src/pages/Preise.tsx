@@ -29,7 +29,7 @@ const Preise = () => {
           <div className="text-center space-y-8">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm font-medium text-gray-700 mb-4">
               <Calculator className="w-4 h-4 mr-2 text-primary" />
-              Transparente Preisgestaltung
+              Transparentna polityka cenowa
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
@@ -63,7 +63,7 @@ const Preise = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">Standardowy Olej Opałowy EL</h3>
                   <div className="relative inline-block">
                     <div className="text-6xl font-bold text-primary mb-2">0,70 €</div>
-                    <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">inkl. MwSt.</div>
+                    <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">z VAT</div>
                   </div>
                   <div className="text-gray-600 font-medium">za litr</div>
                 </div>
@@ -103,7 +103,7 @@ const Preise = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">Premium Olej Opałowy Plus</h3>
                   <div className="relative inline-block">
                     <div className="text-6xl font-bold text-primary mb-2">0,73 €</div>
-                    <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">inkl. MwSt.</div>
+                    <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">z VAT</div>
                   </div>
                   <div className="text-gray-600 font-medium">za litr</div>
                 </div>

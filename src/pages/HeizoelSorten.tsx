@@ -140,9 +140,9 @@ const HeizoelSorten = () => {
       <PageSection background="gray" className="py-24">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Qualitätsmerkmale</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Cechy jakości</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Unsere Heizölqualität überzeugt durch geprüfte Standards und höchste Reinheit
+              Jakość naszego oleju opałowego przekonuje sprawdzonymi standardami i najwyższą czystością
             </p>
           </div>
           
@@ -156,9 +156,9 @@ const HeizoelSorten = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Optimaler Heizwert</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Optymalna wartość opałowa</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Mindestens 42,6 MJ/kg für maximale Energieausbeute und Effizienz Ihrer Heizung.
+                    Co najmniej 42,6 MJ/kg dla maksymalnej wydajności energetycznej i sprawności Twojego ogrzewania.
                   </p>
                 </div>
               </div>
@@ -173,9 +173,9 @@ const HeizoelSorten = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Geprüfte Reinheit</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Sprawdzona czystość</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Regelmäßige Qualitätskontrollen und Laborprüfungen garantieren höchste Reinheit.
+                    Regularne kontrole jakości i badania laboratoryjne gwarantują najwyższą czystość.
                   </p>
                 </div>
               </div>
@@ -190,9 +190,9 @@ const HeizoelSorten = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Umweltfreundlich</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Przyjazny dla środowiska</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Schwefelarme Qualität reduziert Emissionen und schont die Umwelt.
+                    Jakość niskosiarkowa redukuje emisje i chroni środowisko.
                   </p>
                 </div>
               </div>
@@ -205,10 +205,10 @@ const HeizoelSorten = () => {
       <PageSection className="py-24">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Lagerung & Haltbarkeit</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Przechowywanie i trwałość</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Unser Heizöl ist bei sachgerechter Lagerung mehrere Jahre haltbar. 
-              Für optimale Qualität empfehlen wir die Beachtung folgender Punkte:
+              Nasz olej opałowy jest trwały przez kilka lat przy prawidłowym przechowywaniu. 
+              Dla optymalnej jakości zalecamy przestrzeganie następujących punktów:
             </p>
           </div>
           
@@ -221,21 +221,21 @@ const HeizoelSorten = () => {
                   <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
                     <span className="text-2xl">✓</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900">Empfehlungen</h3>
+                  <h3 className="text-2xl font-bold text-gray-900">Zalecenia</h3>
                 </div>
                 <div className="space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-gray-700">Dunkle, kühle Lagerung</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-gray-700">Regelmäßige Tankwartung</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-gray-700">Schutz vor Kondenswasser</p>
-                  </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-700">Przechowywanie w ciemnym, chłodnym miejscu</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-700">Regularna konserwacja zbiornika</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-700">Ochrona przed wodą kondensacyjną</p>
+                    </div>
                 </div>
               </div>
             </div>
@@ -248,21 +248,21 @@ const HeizoelSorten = () => {
                   <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mr-4">
                     <span className="text-2xl">⚠️</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900">Vermeiden</h3>
+                  <h3 className="text-2xl font-bold text-gray-900">Unikaj</h3>
                 </div>
                 <div className="space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-gray-700">Direkte Sonneneinstrahlung</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-gray-700">Temperaturschwankungen</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-gray-700">Verunreinigungen</p>
-                  </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-700">Bezpośrednie promienie słoneczne</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-700">Wahania temperatury</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-700">Zanieczyszczenia</p>
+                    </div>
                 </div>
               </div>
             </div>

@@ -14,7 +14,7 @@ interface SEOProps {
 const SEO = ({ 
   title, 
   description, 
-  keywords = "Heizöl, günstig, Lieferung, Berlin, Deutschland, 70 Cent",
+  keywords = "olej opałowy, dostawa, Polska, tanio, 70 gr/litr, premium olej opałowy, zamów online",
   ogImage = "https://i.imgur.com/jOSkXXt.png",
   ogType = "website",
   canonicalUrl,
