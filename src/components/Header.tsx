@@ -9,11 +9,11 @@ const Header = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Startseite', href: '/' },
-    { name: 'Heizöl-Sorten', href: '/heizoelsorten' },
-    { name: 'Lieferservice', href: '/lieferservice' },
-    { name: 'Preise & Konditionen', href: '/preise' },
-    { name: 'Über uns & Service', href: '/ueber-uns' },
+    { name: 'Strona główna', href: '/' },
+    { name: 'Rodzaje oleju', href: '/heizoelsorten' },
+    { name: 'Dostawa', href: '/lieferservice' },
+    { name: 'Ceny i warunki', href: '/preise' },
+    { name: 'O nas i serwis', href: '/ueber-uns' },
   ];
 
   const isActive = (href: string) => location.pathname === href;
@@ -97,7 +97,7 @@ const Header = () => {
               className="hidden sm:flex items-center space-x-2 bg-gradient-to-r from-primary to-blue-600 text-white px-6 py-2.5 rounded-xl font-medium shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105"
             >
               <Calculator className="w-4 h-4" />
-              <span>zum Preisrechner</span>
+              <span>do kalkulatora</span>
             </button>
 
             {/* Mobile Menu Button */}
@@ -138,7 +138,7 @@ const Header = () => {
                 className="sm:hidden mt-4 flex items-center justify-center space-x-2 bg-gradient-to-r from-primary to-blue-600 text-white px-4 py-3 rounded-xl font-medium shadow-lg shadow-primary/25"
               >
                 <Calculator className="w-4 h-4" />
-                <span>zum Preisrechner</span>
+                <span>do kalkulatora</span>
               </button>
             </nav>
           </div>

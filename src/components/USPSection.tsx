@@ -5,32 +5,32 @@ const USPSection = () => {
   const usps = [
     {
       icon: Euro,
-      title: "Ab 70 Cent pro Liter",
-      description: "Marktführende Preise für Standard- und Premium-Heizöl durch optimierte Beschaffung und direkte Raffineriekooperationen.",
-      highlight: "Bis zu 30% günstiger",
+      title: "Od 70 groszy za litr",
+      description: "Wiodące na rynku ceny standardowego i premium oleju opałowego dzięki zoptymalizowanym zakupom i bezpośredniej współpracy z rafineriami.",
+      highlight: "Do 30% taniej",
       accent: "from-emerald-500 to-green-600"
     },
     {
       icon: Truck,
-      title: "Kostenlose Lieferung ab 2.000L",
-      description: "Deutschlandweite kostenfreie Premium-Anlieferung bei größeren Bestellungen. Zuverlässig und pünktlich zu Ihrem Wunschtermin.",
-      highlight: "Deutschlandweit",
+      title: "Bezpłatna dostawa od 2000L",
+      description: "Bezpłatna premium dostawa w całej Polsce przy większych zamówieniach. Niezawodnie i punktualnie w wybranym terminie.",
+      highlight: "W całej Polsce",
       accent: "from-blue-500 to-indigo-600"
     },
     {
       icon: Shield,
-      title: "Verlässlicher Service",
-      description: "Pünktliche Lieferung, geprüfte Partner und transparente Prozesse – für maximale Sicherheit.",
-      highlight: "100.000+ Kunden",
+      title: "Niezawodny serwis",
+      description: "Punktualne dostawy, sprawdzeni partnerzy i transparentne procesy – dla maksymalnego bezpieczeństwa.",
+      highlight: "100.000+ klientów",
       accent: "from-purple-500 to-violet-600"
     }
   ];
 
   const stats = [
-    { icon: TrendingDown, value: "100.000+", label: "Zufriedene Kunden", color: "text-emerald-600" },
-    { icon: MapPin, value: "50M+", label: "Liter geliefert", color: "text-blue-600" },
-    { icon: Award, value: "24/7", label: "Bestellung", color: "text-purple-600" },
-    { icon: Shield, value: "99%", label: "Kundenzufriedenheit", color: "text-orange-600" }
+    { icon: TrendingDown, value: "100.000+", label: "Zadowolonych klientów", color: "text-emerald-600" },
+    { icon: MapPin, value: "50M+", label: "Litrów dostarczone", color: "text-blue-600" },
+    { icon: Award, value: "24/7", label: "Zamówienia", color: "text-purple-600" },
+    { icon: Shield, value: "99%", label: "Zadowolenie klientów", color: "text-orange-600" }
   ];
 
   return (
@@ -42,13 +42,13 @@ const USPSection = () => {
         {/* Header */}
         <div className="text-center mb-20 animate-fade-in">
           <div className="inline-block bg-primary/10 text-primary px-6 py-2 rounded-full text-sm font-semibold mb-6">
-            Premium Heizöl Service
+            Premium Serwis Oleju Opałowego
           </div>
           <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Warum <span className="gradient-text">Blueline</span>?
+            Dlaczego <span className="gradient-text">Blueline</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Wir sind Ihr digitaler Heizöl-Experte für ganz Deutschland. Entdecken Sie unsere überzeugenden Vorteile und Premium-Service.
+            Jesteśmy Twoim cyfrowym ekspertem oleju opałowego dla całej Polski. Odkryj nasze przekonujące zalety i premium serwis.
           </p>
         </div>
 
@@ -98,9 +98,9 @@ const USPSection = () => {
         {/* Stats Section */}
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl border border-gray-200/50 p-8 md:p-12">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">Vertrauen durch Zahlen</h3>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">Zaufanie przez liczby</h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Diese Kennzahlen sprechen für sich und zeigen unser Engagement für Qualität und Kundenzufriedenheit.
+              Te wskaźniki mówią same za siebie i pokazują nasze zaangażowanie w jakość i zadowolenie klientów.
             </p>
           </div>
           

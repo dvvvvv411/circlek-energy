@@ -16,9 +16,9 @@ const Preise = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Heizöl Preise & Konditionen | Ab 70 Cent/L | Blueline"
-        description="Transparente Heizöl-Preise ohne versteckte Kosten. Standard Heizöl ab 70 Cent/L, Premium ab 73 Cent/L. Preisgarantie bis zur Lieferung!"
-        keywords="Heizöl Preise, Heizöl Kosten, Preisgarantie, transparente Preise, Heizöl günstig kaufen, Berlin"
+        title="Ceny Oleju Opałowego & Warunki | Od 70 gr/L | Blueline"
+        description="Transparentne ceny oleju opałowego bez ukrytych kosztów. Standardowy olej od 70 gr/L, Premium od 73 gr/L. Gwarancja ceny do dostawy!"
+        keywords="ceny oleju opałowego, koszty oleju, gwarancja ceny, transparentne ceny, tani olej opałowy"
         canonicalUrl="https://bl-heizoel.de/preise"
       />
       <Header />
@@ -33,12 +33,12 @@ const Preise = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Transparente <span className="gradient-text">Preise & Konditionen</span>
+              Transparentne <span className="gradient-text">Ceny i Warunki</span>
             </h1>
             
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Faire und transparente Preise ohne versteckte Kosten. 
-              Profitieren Sie von unseren Mengenrabatten und Premium-Kundenvorteilen.
+              Uczciwe i transparentne ceny bez ukrytych kosztów. 
+              Skorzystaj z naszych rabatów ilościowych i korzyści dla klientów Premium.
             </p>
           </div>
         </div>
@@ -48,9 +48,9 @@ const Preise = () => {
       <PageSection className="py-24">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Aktuelle Heizölpreise</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Aktualne Ceny Oleju Opałowego</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Profitieren Sie von unseren günstigen Preisen und erstklassiger Qualität
+              Skorzystaj z naszych konkurencyjnych cen i najwyższej jakości
             </p>
           </div>
           
@@ -60,30 +60,30 @@ const Preise = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
               <div className="relative bg-white border border-gray-200 rounded-3xl p-10 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6">Standard Heizöl EL</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-6">Standardowy Olej Opałowy EL</h3>
                   <div className="relative inline-block">
                     <div className="text-6xl font-bold text-primary mb-2">0,70 €</div>
                     <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">inkl. MwSt.</div>
                   </div>
-                  <div className="text-gray-600 font-medium">pro Liter</div>
+                  <div className="text-gray-600 font-medium">za litr</div>
                 </div>
                 
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
                     <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700 font-medium">DIN 51603-1 Qualität</p>
+                    <p className="text-gray-700 font-medium">Jakość DIN 51603-1</p>
                   </div>
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
                     <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700 font-medium">Schwefelarm</p>
+                    <p className="text-gray-700 font-medium">Niska zawartość siarki</p>
                   </div>
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
                     <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700 font-medium">Sofort verfügbar</p>
+                    <p className="text-gray-700 font-medium">Dostępny natychmiast</p>
                   </div>
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-green-50">
                     <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700 font-medium">Für alle Ölheizungen</p>
+                    <p className="text-gray-700 font-medium">Do wszystkich kotłów olejowych</p>
                   </div>
                 </div>
               </div>
@@ -100,30 +100,30 @@ const Preise = () => {
                 </div>
                 
                 <div className="text-center mb-8 pt-4">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6">Premium Heizöl Plus</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-6">Premium Olej Opałowy Plus</h3>
                   <div className="relative inline-block">
                     <div className="text-6xl font-bold text-primary mb-2">0,73 €</div>
                     <div className="absolute -top-2 -right-8 text-sm text-gray-500 font-medium">inkl. MwSt.</div>
                   </div>
-                  <div className="text-gray-600 font-medium">pro Liter</div>
+                  <div className="text-gray-600 font-medium">za litr</div>
                 </div>
                 
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-primary/5 border border-primary/20">
                     <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700 font-medium">Premium-Qualität mit Additiven</p>
+                    <p className="text-gray-700 font-medium">Jakość Premium z dodatkami</p>
                   </div>
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-primary/5 border border-primary/20">
                     <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700 font-medium">Ultra-schwefelarm</p>
+                    <p className="text-gray-700 font-medium">Ultra-niska zawartość siarki</p>
                   </div>
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-primary/5 border border-primary/20">
                     <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700 font-medium">Verlängerte Haltbarkeit</p>
+                    <p className="text-gray-700 font-medium">Wydłużona trwałość</p>
                   </div>
                   <div className="flex items-center space-x-3 p-3 rounded-xl bg-primary/5 border border-primary/20">
                     <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                    <p className="text-gray-700 font-medium">Optimierte Verbrennung</p>
+                    <p className="text-gray-700 font-medium">Zoptymalizowane spalanie</p>
                   </div>
                 </div>
               </div>
@@ -133,14 +133,14 @@ const Preise = () => {
           <div className="text-center mt-16">
             <div className="inline-flex flex-col items-center space-y-6 p-8 bg-gradient-to-br from-gray-50 to-white rounded-2xl border border-gray-200 shadow-sm">
               <p className="text-lg text-gray-700 font-medium">
-                Benötigen Sie ein individuelles Angebot?
+                Potrzebujesz indywidualnej oferty?
               </p>
               <Button 
                 onClick={scrollToPriceCalculator}
                 className="bg-primary hover:bg-primary/90 text-white px-8 py-3 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <Calculator className="w-5 h-5 mr-3" />
-                zum Preisrechner
+                do kalkulatora cen
               </Button>
             </div>
           </div>
@@ -151,9 +151,9 @@ const Preise = () => {
       <PageSection background="primary" className="py-24">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Unsere Preisgarantie</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nasza Gwarancja Ceny</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ihre Sicherheit ist unser Versprechen - transparente Kosten ohne Überraschungen
+              Twoje bezpieczeństwo to nasza obietnica - transparentne koszty bez niespodzianek
             </p>
           </div>
           
@@ -165,9 +165,9 @@ const Preise = () => {
                   <div className="text-4xl">🛡️</div>
                 </div>
                 <p className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-                  Nach Ihrer Bestellung garantieren wir den vereinbarten Preis bis zur Lieferung - 
-                  auch bei steigenden Marktpreisen. Sie profitieren von Planungssicherheit und 
-                  transparenten Kosten ohne unerwartete Überraschungen.
+                  Po złożeniu zamówienia gwarantujemy uzgodnioną cenę aż do dostawy - 
+                  nawet przy rosnących cenach rynkowych. Zyskujesz pewność planowania i 
+                  transparentne koszty bez nieoczekiwanych niespodzianek.
                 </p>
               </div>
               
@@ -179,20 +179,20 @@ const Preise = () => {
                       <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
                         <span className="text-2xl">✓</span>
                       </div>
-                      <h3 className="text-2xl font-bold text-gray-900">Garantiert</h3>
+                      <h3 className="text-2xl font-bold text-gray-900">Gwarantowane</h3>
                     </div>
                     <div className="space-y-4">
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                        <p className="text-gray-700">Festpreis bei Bestellung</p>
+                        <p className="text-gray-700">Stała cena przy zamówieniu</p>
                       </div>
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                        <p className="text-gray-700">Keine nachträglichen Kosten</p>
+                        <p className="text-gray-700">Brak dodatkowych kosztów</p>
                       </div>
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
-                        <p className="text-gray-700">Transparente Preisgestaltung</p>
+                        <p className="text-gray-700">Transparentne ceny</p>
                       </div>
                     </div>
                   </div>
@@ -205,20 +205,20 @@ const Preise = () => {
                       <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mr-4">
                         <span className="text-2xl">📞</span>
                       </div>
-                      <h3 className="text-2xl font-bold text-gray-900">Service</h3>
+                      <h3 className="text-2xl font-bold text-gray-900">Serwis</h3>
                     </div>
                     <div className="space-y-4">
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
-                        <p className="text-gray-700">Kostenlose Beratung</p>
+                        <p className="text-gray-700">Bezpłatne doradztwo</p>
                       </div>
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
-                        <p className="text-gray-700">Individuelle Angebote</p>
+                        <p className="text-gray-700">Indywidualne oferty</p>
                       </div>
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
-                        <p className="text-gray-700">Persönliche Betreuung</p>
+                        <p className="text-gray-700">Osobista opieka</p>
                       </div>
                     </div>
                   </div>

@@ -10,15 +10,15 @@ const Widerrufsrecht = () => {
       <main className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-8">Widerrufsrecht</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-8">Prawo odstąpienia</h1>
             
             <div className="space-y-8 text-gray-700">
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Widerrufsbelehrung</h2>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">Pouczenie o prawie odstąpienia</h2>
                 
-                <h3 className="text-lg font-semibold mb-2">Widerrufsrecht</h3>
-                <p>Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.</p>
-                <p className="mt-2">Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.</p>
+                <h3 className="text-lg font-semibold mb-2">Prawo odstąpienia</h3>
+                <p>Masz prawo odstąpić od tej umowy w ciągu czternastu dni bez podawania przyczyn.</p>
+                <p className="mt-2">Okres na odstąpienie wynosi czternaście dni od dnia, w którym Ty lub wskazana przez Ciebie osoba trzecia, która nie jest przewoźnikiem, weszła w posiadanie towaru.</p>
                 
                 <h3 className="text-lg font-semibold mb-2 mt-6">Ausübung des Widerrufsrechts</h3>
                 <p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns</p>

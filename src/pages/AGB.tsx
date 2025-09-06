@@ -10,12 +10,12 @@ const AGB = () => {
       <main className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-8">Allgemeine Geschäftsbedingungen</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-8">Ogólne Warunki Sprzedaży</h1>
             
             <div className="space-y-8 text-gray-700">
               <section>
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 1 Geltungsbereich</h2>
-                <p>Diese Allgemeinen Geschäftsbedingungen gelten für alle Geschäftsbeziehungen zwischen der BL Trade GmbH (nachfolgend "Verkäufer") und ihren Kunden (nachfolgend "Käufer"). Abweichende Bedingungen des Käufers werden nicht anerkannt, es sei denn, der Verkäufer stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 1 Zakres obowiązywania</h2>
+                <p>Niniejsze Ogólne Warunki Sprzedaży obowiązują we wszystkich relacjach biznesowych pomiędzy BL Trade GmbH (zwaną dalej "Sprzedawcą") a jej klientami (zwanymi dalej "Kupującymi"). Odmienne warunki Kupującego nie są uznawane, chyba że Sprzedawca wyraźnie zgodzi się na ich obowiązywanie na piśmie.</p>
               </section>
 
               <section>

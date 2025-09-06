@@ -15,9 +15,9 @@ const Index = () => {
   return (
     <div className="min-h-screen">
         <SEO
-        title="Blueline | Premium Heizöl ab 70 Cent/L | Kostenlose Lieferung ab 2.000L"
-        description="Premium Heizöl ab 70 Cent pro Liter mit kostenloser Lieferung ab 2.000L deutschlandweit. Jetzt Preis berechnen!"
-        keywords="Heizöl günstig, Heizöl bestellen, Heizöl Lieferung Deutschland, günstige Heizölpreise, Heizöl online kaufen, Berlin"
+        title="Blueline | Premium Olej Opałowy od 70 gr/L | Bezpłatna Dostawa od 2000L"
+        description="Premium olej opałowy od 70 groszy za litr z bezpłatną dostawą od 2000L w całej Polsce. Oblicz cenę już teraz!"
+        keywords="olej opałowy tani, zamówienie olej opałowy, dostawa oleju opałowego Polska, tanie ceny oleju, olej opałowy online"
         structuredData={structuredData}
         canonicalUrl="https://bl-heizoel.de/"
       />

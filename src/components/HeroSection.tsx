@@ -32,40 +32,40 @@ const HeroSection = () => {
                   <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="text-sm font-medium text-gray-700">100.000+ zufriedene Kunden</span>
+              <span className="text-sm font-medium text-gray-700">100.000+ zadowolonych klientów</span>
             </div>
 
             {/* Main Headlines */}
             <div className="space-y-6">
               <div className="space-y-3">
                 <h1 className="text-5xl lg:text-6xl xl:text-7xl font-black text-gray-900 leading-[0.9] tracking-tight">
-                  Deutschlands
+                  Pierwszy w Polsce
                   <br />
-                  <span className="gradient-text">führender</span>
+                  <span className="gradient-text">online</span>
                   <br />
-                  <span className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-600">Online-Heizöl-Händler</span>
+                  <span className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-600">sklep z olejem opałowym</span>
                 </h1>
                 <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary/50 rounded-full"></div>
               </div>
               
               <h2 className="text-2xl lg:text-3xl text-gray-700 font-light leading-relaxed">
-                Premium Heizöl ab <span className="font-bold text-primary">70 Cent pro Liter</span>
+                Premium olej opałowy od <span className="font-bold text-primary">70 groszy za litr</span>
                 <br />
-                <span className="text-xl text-gray-600">Kostenlose Lieferung ab 2.000L deutschlandweit</span>
+                <span className="text-xl text-gray-600">Bezpłatna dostawa od 2000L w całej Polsce</span>
               </h2>
             </div>
 
             {/* Feature Panel */}
             <div className="bg-white/70 backdrop-blur border border-gray-200 rounded-2xl p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">Ihre Vorteile auf einen Blick</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">Twoje korzyści w skrócie</h3>
               <div className="grid md:grid-cols-3 gap-6 md:divide-x divide-gray-200">
                 <div className="flex flex-col items-center text-center space-y-2">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                     <span className="text-primary font-bold text-lg">€</span>
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Ab <span className="whitespace-nowrap">70 Cent</span></p>
-                    <p className="text-sm text-gray-600">pro Liter</p>
+                    <p className="font-medium text-gray-900">Od <span className="whitespace-nowrap">70 groszy</span></p>
+                    <p className="text-sm text-gray-600">za litr</p>
                   </div>
                 </div>
 
@@ -74,8 +74,8 @@ const HeroSection = () => {
                     <Truck className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Kostenlos</p>
-                    <p className="text-sm text-gray-600">ab <span className="whitespace-nowrap">2.000 L</span></p>
+                    <p className="font-medium text-gray-900">Bezpłatnie</p>
+                    <p className="text-sm text-gray-600">od <span className="whitespace-nowrap">2000 L</span></p>
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@ const HeroSection = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">24/7</p>
-                    <p className="text-sm text-gray-600">Bestellung</p>
+                    <p className="text-sm text-gray-600">Zamówienie</p>
                   </div>
                 </div>
               </div>
@@ -94,12 +94,12 @@ const HeroSection = () => {
             {/* CTA Section */}
             <div className="space-y-4">
               <p className="text-xl text-gray-700 leading-relaxed">
-                Berechnen Sie jetzt Ihren individuellen Preis und profitieren Sie von 
-                <span className="font-semibold text-primary"> bis zu 30% Ersparnis</span> gegenüber lokalen Anbietern.
+                Oblicz teraz swoją indywidualną cenę i skorzystaj z 
+                <span className="font-semibold text-primary"> do 30% oszczędności</span> w porównaniu z lokalnymi dostawcami.
               </p>
               <div className="flex items-center gap-2 text-sm text-gray-600">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span>Kunden in ganz Deutschland vertrauen auf unsere Qualität</span>
+                <span>Klienci w całej Polsce ufają naszej jakości</span>
               </div>
             </div>
           </div>

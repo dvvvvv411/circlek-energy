@@ -41,6 +41,6 @@ export const companyInfo = {
   fullAddress: "Düsseldorfer Str. 10, 10719 Berlin",
   
   // Company description
-  shortDescription: "Ihr vertrauensvoller Partner für hochwertiges Heizöl. Deutschlandweite Premium-Lieferung ab 70 Cent pro Liter.",
-  longDescription: "Premium Heizöl ab 70 Cent pro Liter mit kostenloser Lieferung ab 2.000L deutschlandweit."
+  shortDescription: "Twój zaufany partner do wysokiej jakości oleju opałowego. Premium dostawa w całej Polsce od 70 centów za litr.",
+  longDescription: "Premium olej opałowy od 70 centów za litr z bezpłatną dostawą od 2000L w całej Polsce."
 };

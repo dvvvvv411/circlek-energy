@@ -6,25 +6,25 @@ const CompanySection = () => {
     {
       icon: Award,
       title: "DIN EN 10203",
-      description: "Zertifizierte Qualität",
+      description: "Certyfikowana jakość",
       color: "from-emerald-500 to-green-600"
     },
     {
       icon: Shield,
-      title: "100% Sicherheit",
-      description: "Geprüfte Lieferungen",
+      title: "100% Bezpieczeństwo",
+      description: "Sprawdzone dostawy",
       color: "from-blue-500 to-indigo-600"
     },
     {
       icon: CheckCircle,
-      title: "Premium Service",
-      description: "Höchste Standards",
+      title: "Premium Serwis",
+      description: "Najwyższe standardy",
       color: "from-purple-500 to-violet-600"
     },
     {
       icon: Building2,
-      title: "Deutschlandweit",
-      description: "Lieferung zum Wunschtermin",
+      title: "W całej Polsce",
+      description: "Dostawa w wybranym terminie",
       color: "from-orange-500 to-red-600"
     }
   ];
@@ -32,19 +32,19 @@ const CompanySection = () => {
   const contactItems = [
     {
       icon: MapPin,
-      title: "Unser Standort",
+      title: "Nasza lokalizacja",
       content: (
         <>
           Düsseldorfer Str. 10<br />
           10719 Berlin<br />
-          Deutschland
+          Niemcy
         </>
       ),
       color: "from-blue-500 to-indigo-600"
     },
     {
       icon: Mail,
-      title: "E-Mail Kontakt",
+      title: "Kontakt e-mail",
       content: (
         <a 
           href="mailto:info@bl-heizoel.de" 
@@ -57,11 +57,11 @@ const CompanySection = () => {
     },
     {
       icon: Clock,
-      title: "Bestellzeiten",
+      title: "Godziny zamówień",
       content: (
         <>
-          Online: 24/7 verfügbar<br />
-          Support: Mo-Fr 8:00-18:00
+          Online: 24/7 dostępne<br />
+          Wsparcie: Pon-Pt 8:00-18:00
         </>
       ),
       color: "from-purple-500 to-violet-600"
@@ -78,28 +78,28 @@ const CompanySection = () => {
           {/* Company Info */}
           <div className="animate-fade-in">
             <div className="inline-block bg-primary/10 text-primary px-6 py-2 rounded-full text-sm font-semibold mb-6">
-              Über uns
+              O nas
             </div>
             
             <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
-              Über <span className="gradient-text">Blueline</span>
+              O <span className="gradient-text">Blueline</span>
             </h2>
             
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed mb-12">
               <p>
-                Wir sind Ihr vertrauensvoller Partner für hochwertige und günstige Heizöl-Lieferungen in ganz Deutschland. 
-                Als innovatives Unternehmen aus Berlin haben wir uns auf die digitale Belieferung von Privat- und Geschäftskunden spezialisiert.
+                Jesteśmy Twoim zaufanym partnerem w dostawach wysokiej jakości i taniego oleju opałowego w całej Polsce. 
+                Jako innowacyjna firma z Berlina, specjalizujemy się w cyfrowych dostawach dla klientów prywatnych i biznesowych.
               </p>
               
               <p>
-                Durch unsere optimierten Beschaffungswege und die direkte Zusammenarbeit mit führenden Raffinerien können wir Ihnen 
-                <span className="font-semibold text-primary"> Premium Heizöl ab 70 Cent pro Liter</span> anbieten - 
-                und das bei kompromisslos hoher Qualität.
+                Dzięki naszym zoptymalizowanym kanałom zakupów i bezpośredniej współpracy z wiodącymi rafineriami możemy zaoferować Ci 
+                <span className="font-semibold text-primary"> premium olej opałowy od 70 groszy za litr</span> - 
+                przy niezmiennie wysokiej jakości.
               </p>
               
               <p>
-                Unser Erfolgsrezept: Transparente Preise, zuverlässiger Premium-Service und die kostenlose Lieferung ab 2.000 Litern deutschlandweit. 
-                <span className="font-semibold text-gray-900"> Über 100.000 zufriedene Kunden</span> bestätigen unsere Qualität.
+                Nasz przepis na sukces: transparentne ceny, niezawodny premium serwis i bezpłatna dostawa od 2000 litrów w całej Polsce. 
+                <span className="font-semibold text-gray-900"> Ponad 100.000 zadowolonych klientów</span> potwierdza naszą jakość.
               </p>
             </div>
 
@@ -130,10 +130,10 @@ const CompanySection = () => {
             <div className="bg-white/80 backdrop-blur-sm border border-gray-200/50 rounded-3xl p-8 mb-8 hover:shadow-xl transition-all duration-500">
               <div className="text-center mb-8">
                 <h3 className="text-3xl font-bold text-gray-900 mb-3">
-                  Kontakt & Standort
+                  Kontakt i lokalizacja
                 </h3>
                 <p className="text-gray-600">
-                  Ihr direkter Draht zu uns
+                  Twój bezpośredni kontakt z nami
                 </p>
               </div>
 
@@ -159,7 +159,7 @@ const CompanySection = () => {
 
             {/* Legal Info Card */}
             <div className="bg-gradient-to-br from-gray-50/50 to-white/50 border border-gray-200/50 rounded-3xl p-8">
-              <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">Rechtliche Angaben</h4>
+              <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">Informacje prawne</h4>
               <div className="space-y-3 text-center">
                 <div className="p-4 bg-white/50 rounded-2xl">
                   <p className="font-semibold text-gray-900">Blueline (BL Trade GmbH)</p>
