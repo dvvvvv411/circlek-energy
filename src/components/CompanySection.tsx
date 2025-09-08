@@ -35,9 +35,9 @@ const CompanySection = () => {
       title: "Nasza lokalizacja",
       content: (
         <>
-          Düsseldorfer Str. 10<br />
-          10719 Berlin<br />
-          Niemcy
+          Puławska 86<br />
+          02-603 Warszawa<br />
+          Polska
         </>
       ),
       color: "from-red-500 to-red-700"
@@ -47,10 +47,10 @@ const CompanySection = () => {
       title: "Kontakt e-mail",
       content: (
         <a 
-          href="mailto:info@bl-heizoel.de" 
+          href="mailto:info@circlek-energy.pl" 
           className="text-primary hover:text-primary/80 transition-colors font-medium hover:underline"
         >
-          info@bl-heizoel.de
+          info@circlek-energy.pl
         </a>
       ),
       color: "from-emerald-500 to-green-600"
@@ -88,7 +88,7 @@ const CompanySection = () => {
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed mb-12">
               <p>
                 Jesteśmy Twoim zaufanym partnerem w dostawach wysokiej jakości i taniego oleju opałowego w całej Polsce. 
-                Jako innowacyjna firma z Berlina, specjalizujemy się w cyfrowych dostawach dla klientów prywatnych i biznesowych.
+                Jako innowacyjna firma z Warszawy, specjalizujemy się w cyfrowych dostawach dla klientów prywatnych i biznesowych.
               </p>
               
               <p>
@@ -162,13 +162,13 @@ const CompanySection = () => {
               <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">Informacje prawne</h4>
               <div className="space-y-3 text-center">
                 <div className="p-4 bg-white/50 rounded-2xl">
-                  <p className="font-semibold text-gray-900">Blueline (BL Trade GmbH)</p>
+                  <p className="font-semibold text-gray-900">Circle K Energy Trading SA SA Oddział w Polsce</p>
                 </div>
                 <div className="p-4 bg-white/50 rounded-2xl">
-                  <p className="text-gray-700">Amtsgericht Charlottenburg (Berlin) HRB 251767 B</p>
+                  <p className="text-gray-700">National Court Register KRS0001011992</p>
                 </div>
                 <div className="p-4 bg-white/50 rounded-2xl">
-                  <p className="text-gray-700">USt-ID: DE311826397</p>
+                  <p className="text-gray-700">VAT-ID: PLKRS.000101199</p>
                 </div>
               </div>
             </div>

@@ -22,18 +22,17 @@ const Impressum = () => {
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Dane zgodnie z § 5 TMG</h2>
                 <div className="space-y-2">
-                  <p><strong>Blueline (BL Trade GmbH)</strong></p>
-                  <p>Düsseldorfer Str. 10</p>
-                  <p>10719 Berlin</p>
-                  <p>Niemcy</p>
+                  <p><strong>Circle K Energy Trading SA SA Oddział w Polsce</strong></p>
+                  <p>Puławska 86</p>
+                  <p>02-603 Warszawa</p>
+                  <p>Polska</p>
                 </div>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Kontakt</h2>
                 <div className="space-y-2">
-                  <p><strong>Telefon:</strong> 030 23258380</p>
-                  <p><strong>E-Mail:</strong> info@bl-heizoel.de</p>
+                  <p><strong>E-Mail:</strong> info@circlek-energy.pl</p>
                 </div>
               </section>
 
@@ -41,23 +40,23 @@ const Impressum = () => {
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Wpis w rejestrze</h2>
                 <div className="space-y-2">
                   <p><strong>Wpis w rejestrze handlowym:</strong></p>
-                  <p>Sąd rejestrowy: Amtsgericht Charlottenburg (Berlin)</p>
-                  <p>Numer rejestru: HRB 251767 B</p>
+                  <p>Sąd rejestrowy: National Court Register</p>
+                  <p>Numer rejestru: KRS0001011992</p>
                 </div>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Numer VAT</h2>
                 <p>Numer identyfikacyjny VAT zgodnie z § 27 a ustawy o VAT:</p>
-                <p><strong>DE311826397</strong></p>
+                <p><strong>PLKRS.000101199</strong></p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Odpowiedzialny za treść zgodnie z § 55 Abs. 2 RStV</h2>
                 <div className="space-y-2">
-                  <p>Blueline (BL Trade GmbH)</p>
-                  <p>Düsseldorfer Str. 10</p>
-                  <p>10719 Berlin</p>
+                  <p>Circle K Energy Trading SA SA Oddział w Polsce</p>
+                  <p>Puławska 86</p>
+                  <p>02-603 Warszawa</p>
                 </div>
               </section>
 

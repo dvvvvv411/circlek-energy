@@ -30,10 +30,10 @@ const Widerrufsrecht = () => {
                 <h3 className="text-lg font-semibold mb-2 mt-6">Wykonywanie prawa odstąpienia</h3>
                 <p>Aby skorzystać z prawa odstąpienia, musisz nas poinformować</p>
                 <div className="ml-4 mt-2 space-y-1">
-                  <p><strong>BL Trade GmbH</strong></p>
-                  <p>Düsseldorfer Str. 10</p>
-                  <p>10719 Berlin</p>
-                  <p>E-Mail: info@bl-heizoel.de</p>
+                  <p><strong>Circle K Energy Trading SA SA Oddział w Polsce</strong></p>
+                  <p>Puławska 86</p>
+                  <p>02-603 Warszawa</p>
+                  <p>E-Mail: info@circlek-energy.pl</p>
                 </div>
                 <p className="mt-2">za pomocą jednoznacznego oświadczenia (np. listu wysłanego pocztą lub e-maila) o Twojej decyzji odstąpienia od tej umowy.</p>
               </section>
@@ -59,8 +59,8 @@ const Widerrufsrecht = () => {
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
                   <p className="font-semibold mb-4">Jeśli chcesz odstąpić od umowy, wypełnij ten formularz i odeślij go:</p>
                   <div className="space-y-2 text-sm">
-                    <p>Do: BL Trade GmbH, Düsseldorfer Str. 10, 10719 Berlin</p>
-                    <p>E-Mail: info@bl-heizoel.de</p>
+                    <p>Do: Circle K Energy Trading SA SA Oddział w Polsce, Puławska 86, 02-603 Warszawa</p>
+                    <p>E-Mail: info@circlek-energy.pl</p>
                     <br />
                     <p>Niniejszym odstępuję/odstępujemy (*) od umowy sprzedaży następujących towarów (*):</p>
                     <p>_________________________________</p>

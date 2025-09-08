@@ -38,30 +38,19 @@ const Footer = () => {
                   <div className="w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center mt-1 group-hover:bg-primary/30 transition-colors duration-300">
                     <MapPin className="w-4 h-4 text-primary" />
                   </div>
-                  <span className="text-gray-200 text-sm">Düsseldorfer Str. 10, 10719 Berlin</span>
+                  <span className="text-gray-200 text-sm">Puławska 86, 02-603 Warszawa</span>
                 </div>
                 
-                <div className="group flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center group-hover:bg-primary/30 transition-colors duration-300">
-                    <Phone className="w-4 h-4 text-primary" />
-                  </div>
-                  <a 
-                    href="tel:+493023258380" 
-                    className="text-gray-200 text-sm hover:text-primary transition-colors duration-300"
-                  >
-                    030 23258380
-                  </a>
-                </div>
                 
                 <div className="group flex items-center space-x-3">
                   <div className="w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center group-hover:bg-primary/30 transition-colors duration-300">
                     <Mail className="w-4 h-4 text-primary" />
                   </div>
                   <a 
-                    href="mailto:info@bl-heizoel.de" 
+                    href="mailto:info@circlek-energy.pl" 
                     className="text-gray-200 text-sm hover:text-primary transition-colors duration-300"
                   >
-                    info@bl-heizoel.de
+                    info@circlek-energy.pl
                   </a>
                 </div>
               </div>
@@ -167,7 +156,7 @@ const Footer = () => {
             <div className="flex items-center justify-between gap-6 flex-nowrap overflow-x-auto">
               <div className="flex items-center gap-6 text-gray-400 text-sm whitespace-nowrap">
                 <span>© 2025 Blueline. Wszelkie prawa zastrzeżone.</span>
-                <span>Amtsgericht Charlottenburg (Berlin) HRB 251767 B | USt-ID: DE311826397</span>
+                <span>National Court Register KRS0001011992 | VAT-ID: PLKRS.000101199</span>
               </div>
               <div className="text-sm text-gray-400 bg-white/5 px-4 py-2 rounded-full border border-white/10 whitespace-nowrap">
                 Made with ❤️ dla Polski

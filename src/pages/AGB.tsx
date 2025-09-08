@@ -15,7 +15,7 @@ const AGB = () => {
             <div className="space-y-8 text-gray-700">
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 1 Zakres obowiązywania</h2>
-                <p>Niniejsze Ogólne Warunki Sprzedaży obowiązują we wszystkich relacjach biznesowych pomiędzy BL Trade GmbH (zwaną dalej "Sprzedawcą") a jej klientami (zwanymi dalej "Kupującymi"). Odmienne warunki Kupującego nie są uznawane, chyba że Sprzedawca wyraźnie zgodzi się na ich obowiązywanie na piśmie.</p>
+                <p>Niniejsze Ogólne Warunki Sprzedaży obowiązują we wszystkich relacjach biznesowych pomiędzy Circle K Energy Trading SA SA Oddział w Polsce (zwaną dalej "Sprzedawcą") a jej klientami (zwanymi dalej "Kupującymi"). Odmienne warunki Kupującego nie są uznawane, chyba że Sprzedawca wyraźnie zgodzi się na ich obowiązywanie na piśmie.</p>
               </section>
 
               <section>
@@ -62,7 +62,7 @@ const AGB = () => {
 
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">§ 8 Postanowienia końcowe</h2>
-                <p>Obowiązuje prawo Polski z wyłączeniem Konwencji Narodów Zjednoczonych o umowach międzynarodowej sprzedaży towarów. Miejscem właściwości sądowej dla wszystkich sporów jest Berlin, jeżeli Kupujący jest przedsiębiorcą.</p>
+                <p>Obowiązuje prawo Polski z wyłączeniem Konwencji Narodów Zjednoczonych o umowach międzynarodowej sprzedaży towarów. Miejscem właściwości sądowej dla wszystkich sporów jest Warszawa, jeżeli Kupujący jest przedsiębiorcą.</p>
               </section>
             </div>
           </div>

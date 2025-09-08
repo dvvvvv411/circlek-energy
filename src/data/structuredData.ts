@@ -3,22 +3,21 @@ export const companyStructuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Blueline",
-  "alternateName": "BL Trade GmbH",
+  "alternateName": "Circle K Energy Trading SA SA Oddział w Polsce",
   "url": "https://bl-heizoel.de",
   "logo": "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+49-30-23258380",
     "contactType": "customer service",
-    "email": "info@bl-heizoel.de",
+    "email": "info@circlek-energy.pl",
     "availableLanguage": "Polish"
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Düsseldorfer Str. 10",
-    "addressLocality": "Berlin",
-    "postalCode": "10719",
-    "addressCountry": "DE"
+    "streetAddress": "Puławska 86",
+    "addressLocality": "Warszawa",
+    "postalCode": "02-603",
+    "addressCountry": "PL"
   },
   "foundingDate": "2023",
   "numberOfEmployees": "10-50",
@@ -47,18 +46,17 @@ export const localBusinessStructuredData = {
   "image": "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
   "@id": "https://bl-heizoel.de",
   "url": "https://bl-heizoel.de",
-  "telephone": "+49-30-23258380",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Düsseldorfer Str. 10",
-    "addressLocality": "Berlin",
-    "postalCode": "10719",
-    "addressCountry": "DE"
+    "streetAddress": "Puławska 86",
+    "addressLocality": "Warszawa",
+    "postalCode": "02-603",
+    "addressCountry": "PL"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 52.499,
-    "longitude": 13.330
+    "latitude": 52.230,
+    "longitude": 21.010
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",

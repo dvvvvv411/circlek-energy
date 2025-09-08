@@ -1,25 +1,25 @@
 export const companyInfo = {
   // Brand Information
   brandName: "Blueline",
-  legalName: "BL Trade GmbH",
+  legalName: "Circle K Energy Trading SA SA Oddział w Polsce",
   
   // Address
-  street: "Düsseldorfer Str. 10",
-  postalCode: "10719",
-  city: "Berlin",
-  country: "DE",
+  street: "Puławska 86",
+  postalCode: "02-603",
+  city: "Warszawa",
+  country: "PL",
   
   // Contact Information
-  email: "info@bl-heizoel.de",
-  phoneDisplay: "030 23258380",
-  phoneIntl: "+49 30 23258380",
-  phoneTel: "+493023258380",
+  email: "info@circlek-energy.pl",
+  phoneDisplay: "",
+  phoneIntl: "",
+  phoneTel: "",
   
   // Legal Information
-  court: "Amtsgericht Charlottenburg (Berlin)",
-  hrb: "HRB 251767 B",
-  vatId: "DE311826397",
-  ceo: "Dzhamil Bulgakov",
+  court: "National Court Register",
+  hrb: "KRS0001011992",
+  vatId: "PLKRS.000101199",
+  ceo: "Philippe André Muheim",
   
   // Business Information
   foundingYear: "2023",
@@ -38,7 +38,7 @@ export const companyInfo = {
   website: "https://bl-heizoel.de",
   
   // Full address string
-  fullAddress: "Düsseldorfer Str. 10, 10719 Berlin",
+  fullAddress: "Puławska 86, 02-603 Warszawa",
   
   // Company description
   shortDescription: "Twój zaufany partner do wysokiej jakości oleju opałowego. Premium dostawa w całej Polsce od 2,97 zł za litr.",

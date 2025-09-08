@@ -11,8 +11,8 @@ const UeberUns = () => {
     <div className="min-h-screen">
       <SEO
         title="O nas & Usługi | Blueline | Premium Dostawca Oleju Opałowego"
-        description="Blueline – Twój zaufany partner w dostawie oleju opałowego. Innowacyjna firma z Berlina z ponad 100.000 zadowolonymi klientami w całej Polsce."
-        keywords="Blueline, Berlin, firma oleju opałowego, premium olej opałowy, olej opałowy Polska"
+        description="Blueline – Twój zaufany partner w dostawie oleju opałowego. Innowacyjna firma z Warszawy z ponad 100.000 zadowolonymi klientami w całej Polsce."
+        keywords="Blueline, Warszawa, firma oleju opałowego, premium olej opałowy, olej opałowy Polska"
         canonicalUrl="https://bl-heizoel.de/o-nas"
       />
       <Header />
@@ -31,7 +31,7 @@ const UeberUns = () => {
             </h1>
             
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Twój zaufany partner w dostawie oleju opałowego w Berlinie i całej Polsce. 
+              Twój zaufany partner w dostawie oleju opałowego w Warszawie i całej Polsce. 
               Cyfrowy pionier z tradycją i najnowocześniejszą technologią.
             </p>
           </div>
@@ -44,7 +44,7 @@ const UeberUns = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Blueline</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Twoje zaufane źródło premium oleju opałowego z Berlina
+              Twoje zaufane źródło premium oleju opałowego z Warszawy
             </p>
           </div>
           
@@ -54,7 +54,7 @@ const UeberUns = () => {
                 <h3 className="text-2xl font-bold mb-6 text-primary">Nasza historia</h3>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed text-lg">
-                    Założona w 2023 roku w Berlinie, etablowaliśmy się jako niezawodny dostawca oleju opałowego 
+                    Założona w 2023 roku w Warszawie, etablowaliśmy się jako niezawodny dostawca oleju opałowego 
                     w regionie. To, co zaczęło się jako lokalna firma, jest dziś przedsiębiorstwem Premium 
                     działającym w całej Polsce z najnowocześniejszymi cysternami 
                     i w pełni zdigitalizowanymi procesami zamówień i dostaw.
@@ -85,7 +85,7 @@ const UeberUns = () => {
                   </div>
                   <div className="flex justify-between items-center p-4 bg-primary/5 rounded-xl border border-primary/20">
                     <span className="text-gray-600 font-medium">Siedziba:</span>
-                    <span className="font-bold text-gray-900">Berlin</span>
+                    <span className="font-bold text-gray-900">Warszawa</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <span className="text-gray-600 font-medium">Obsługiwany obszar:</span>
@@ -266,7 +266,7 @@ const UeberUns = () => {
           <div className="text-center mb-16">
             <h2 id="kontakt" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Kontakt & Lokalizacja</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Twoi opiekunowie w Berlinie - jesteśmy dla Ciebie
+              Twoi opiekunowie w Warszawie - jesteśmy dla Ciebie
             </p>
           </div>
           
@@ -283,17 +283,16 @@ const UeberUns = () => {
                 
                 <div className="space-y-6 text-center">
                   <div className="p-4 bg-white/60 rounded-xl border border-white/40">
-                    <p className="font-bold text-lg text-gray-900 mb-2">Blueline (BL Trade GmbH)</p>
+                    <p className="font-bold text-lg text-gray-900 mb-2">Circle K Energy Trading SA SA Oddział w Polsce</p>
                     <p className="text-gray-700">
-                      Düsseldorfer Str. 10<br/>
-                      10719 Berlin
+                      Puławska 86<br/>
+                      02-603 Warszawa
                     </p>
                   </div>
                   
                   <div className="p-4 bg-white/60 rounded-xl border border-white/40">
                     <p className="text-gray-700">
-                      <strong className="text-primary">E-Mail:</strong> info@bl-heizoel.de<br/>
-                      <strong className="text-primary">Telefon:</strong> 030 23258380
+                      <strong className="text-primary">E-Mail:</strong> info@circlek-energy.pl
                     </p>
                   </div>
                 </div>

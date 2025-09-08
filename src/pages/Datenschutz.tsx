@@ -27,10 +27,10 @@ const Datenschutz = () => {
                 <h3 className="text-lg font-semibold mb-2 mt-4">Podmiot odpowiedzialny</h3>
                 <div className="space-y-2">
                   <p>Podmiotem odpowiedzialnym za przetwarzanie danych na tej stronie internetowej jest:</p>
-                  <p><strong>BL Trade GmbH</strong></p>
-                  <p>Düsseldorfer Str. 10</p>
-                  <p>10719 Berlin</p>
-                  <p>E-Mail: info@bl-heizoel.de</p>
+                  <p><strong>Circle K Energy Trading SA SA Oddział w Polsce</strong></p>
+                  <p>Puławska 86</p>
+                  <p>02-603 Warszawa</p>
+                  <p>E-Mail: info@circlek-energy.pl</p>
                 </div>
               </section>
 
