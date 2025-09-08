@@ -11,7 +11,7 @@ const PageSection = ({ children, className = '', background = 'white' }: PageSec
   const backgroundClasses = {
     white: 'bg-white',
     gray: 'bg-gray-50',
-    primary: 'bg-gradient-to-br from-primary/5 to-blue-600/5'
+    primary: 'bg-gradient-to-br from-primary/5 to-red-700/5'
   };
 
   return (

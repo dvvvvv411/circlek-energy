@@ -91,10 +91,10 @@ const Preise = () => {
 
             {/* Premium Heizöl Plus */}
             <div className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-blue-600/10 rounded-3xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-red-700/10 rounded-3xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
               <div className="relative bg-white border-2 border-primary/30 rounded-3xl p-10 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="bg-gradient-to-r from-primary to-blue-600 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
+                  <div className="bg-gradient-to-r from-primary to-red-700 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
                     PREMIUM
                   </div>
                 </div>
@@ -199,25 +199,25 @@ const Preise = () => {
                 </div>
 
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl transform -rotate-1"></div>
-                  <div className="relative bg-white border border-blue-200/50 rounded-2xl p-8">
+                  <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-red-100 rounded-2xl transform -rotate-1"></div>
+                  <div className="relative bg-white border border-red-200/50 rounded-2xl p-8">
                     <div className="flex items-center mb-6">
-                      <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mr-4">
+                      <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mr-4">
                         <span className="text-2xl">📞</span>
                       </div>
                       <h3 className="text-2xl font-bold text-gray-900">Serwis</h3>
                     </div>
                     <div className="space-y-4">
                       <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                         <p className="text-gray-700">Bezpłatne doradztwo</p>
                       </div>
                       <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                         <p className="text-gray-700">Indywidualne oferty</p>
                       </div>
                       <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                         <p className="text-gray-700">Osobista opieka</p>
                       </div>
                     </div>

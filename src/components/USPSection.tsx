@@ -15,7 +15,7 @@ const USPSection = () => {
       title: "Bezpłatna dostawa od 2000L",
       description: "Bezpłatna premium dostawa w całej Polsce przy większych zamówieniach. Niezawodnie i punktualnie w wybranym terminie.",
       highlight: "W całej Polsce",
-      accent: "from-blue-500 to-indigo-600"
+      accent: "from-red-500 to-red-700"
     },
     {
       icon: Shield,
@@ -28,7 +28,7 @@ const USPSection = () => {
 
   const stats = [
     { icon: TrendingDown, value: "100.000+", label: "Zadowolonych klientów", color: "text-emerald-600" },
-    { icon: MapPin, value: "50M+", label: "Litrów dostarczone", color: "text-blue-600" },
+    { icon: MapPin, value: "50M+", label: "Litrów dostarczone", color: "text-red-600" },
     { icon: Award, value: "24/7", label: "Zamówienia", color: "text-purple-600" },
     { icon: Shield, value: "99%", label: "Zadowolenie klientów", color: "text-orange-600" }
   ];

@@ -69,7 +69,7 @@ const UeberUns = () => {
             </div>
             
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-blue-600/10 rounded-3xl transform rotate-2"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-red-700/10 rounded-3xl transform rotate-2"></div>
               <div className="relative bg-white border border-gray-200 rounded-3xl p-10 shadow-xl">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-4">

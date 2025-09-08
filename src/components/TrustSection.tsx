@@ -49,7 +49,7 @@ const TrustSection = () => {
       value: "4-7",
       label: "Dni robocze",
       sublabel: "w całej Polsce",
-      color: "from-blue-400 to-indigo-500"
+      color: "from-red-400 to-red-600"
     },
     {
       icon: Shield,
@@ -76,7 +76,7 @@ const TrustSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center mb-20 animate-fade-in">
-          <div className="inline-block bg-gradient-to-r from-primary/10 to-blue-600/10 text-primary px-6 py-2 rounded-full text-sm font-semibold mb-6">
+          <div className="inline-block bg-gradient-to-r from-primary/10 to-red-700/10 text-primary px-6 py-2 rounded-full text-sm font-semibold mb-6">
             Zadowolenie klientów
           </div>
           <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
@@ -119,7 +119,7 @@ const TrustSection = () => {
             >
               {/* Quote Background */}
               <div className="relative">
-                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gradient-to-br from-primary/20 to-blue-600/20 rounded-full flex items-center justify-center">
+                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gradient-to-br from-primary/20 to-red-700/20 rounded-full flex items-center justify-center">
                   <Quote className="w-4 h-4 text-primary" />
                 </div>
                 
@@ -137,7 +137,7 @@ const TrustSection = () => {
 
                 {/* Customer Info */}
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary/20 to-blue-600/20 rounded-full flex items-center justify-center font-semibold text-primary">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary/20 to-red-700/20 rounded-full flex items-center justify-center font-semibold text-primary">
                     {testimonial.initial}
                   </div>
                   <div className="flex-1">

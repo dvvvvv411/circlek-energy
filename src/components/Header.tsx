@@ -94,7 +94,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <button 
               onClick={scrollToPriceCalculator}
-              className="hidden sm:flex items-center space-x-2 bg-gradient-to-r from-primary to-blue-600 text-white px-6 py-2.5 rounded-xl font-medium shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105"
+              className="hidden sm:flex items-center space-x-2 bg-gradient-to-r from-primary to-red-700 text-white px-6 py-2.5 rounded-xl font-medium shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105"
             >
               <Calculator className="w-4 h-4" />
               <span>do kalkulatora</span>
@@ -135,7 +135,7 @@ const Header = () => {
               ))}
               <button 
                 onClick={scrollToPriceCalculator}
-                className="sm:hidden mt-4 flex items-center justify-center space-x-2 bg-gradient-to-r from-primary to-blue-600 text-white px-4 py-3 rounded-xl font-medium shadow-lg shadow-primary/25"
+                className="sm:hidden mt-4 flex items-center justify-center space-x-2 bg-gradient-to-r from-primary to-red-700 text-white px-4 py-3 rounded-xl font-medium shadow-lg shadow-primary/25"
               >
                 <Calculator className="w-4 h-4" />
                 <span>do kalkulatora</span>

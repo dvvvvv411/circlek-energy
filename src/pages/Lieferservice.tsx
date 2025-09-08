@@ -137,8 +137,8 @@ const Lieferservice = () => {
             <div className="group">
               <div className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 h-full">
                 <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl flex items-center justify-center mx-auto">
-                    <Users className="w-8 h-8 text-blue-600" />
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-red-200 rounded-2xl flex items-center justify-center mx-auto">
+                    <Users className="w-8 h-8 text-red-600" />
                   </div>
                 </div>
                 <div className="text-center">
@@ -228,7 +228,7 @@ const Lieferservice = () => {
             </div>
             
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-blue-600/10 rounded-3xl transform rotate-2"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-red-700/10 rounded-3xl transform rotate-2"></div>
               <div className="relative bg-white border border-gray-200 rounded-3xl p-10 shadow-xl">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-4">
@@ -318,12 +318,12 @@ const Lieferservice = () => {
             <div className="group">
               <div className="relative bg-white border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 h-full">
                 <div className="absolute top-6 right-6">
-                  <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
+                  <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
                 </div>
                 
                 <div className="mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl flex items-center justify-center mb-4">
-                    <Clock className="w-8 h-8 text-blue-600" />
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-red-200 rounded-2xl flex items-center justify-center mb-4">
+                    <Clock className="w-8 h-8 text-red-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Punktualna dostawa</h3>
                   <p className="text-gray-600 text-sm mb-4">Niezawodnie i terminowo</p>
@@ -331,19 +331,19 @@ const Lieferservice = () => {
                 
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                     <p className="text-gray-700">Powiadomienia SMS</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                     <p className="text-gray-700">2-godzinne okno czasowe</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                     <p className="text-gray-700">Dostawa Pn-Sob 7-17</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                     <p className="text-gray-700">Dostępny serwis ekspresowy</p>
                   </div>
                 </div>

@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="space-y-6">
               <h4 className="text-xl font-bold text-white relative">
                 Kontakt
-                <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-primary to-blue-600 rounded-full"></div>
+                <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-primary to-red-700 rounded-full"></div>
               </h4>
               <div className="space-y-4">
                 <div className="group flex items-start space-x-3">
@@ -71,7 +71,7 @@ const Footer = () => {
             <div className="space-y-6">
               <h4 className="text-xl font-bold text-white relative">
                 Usługi
-                <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-primary to-blue-600 rounded-full"></div>
+                <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-primary to-red-700 rounded-full"></div>
               </h4>
               <ul className="space-y-4">
                 <li>
@@ -117,7 +117,7 @@ const Footer = () => {
             <div className="space-y-6">
               <h4 className="text-xl font-bold text-white relative">
                 Informacje Prawne
-                <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-primary to-blue-600 rounded-full"></div>
+                <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-primary to-red-700 rounded-full"></div>
               </h4>
               <ul className="space-y-4">
                 <li>

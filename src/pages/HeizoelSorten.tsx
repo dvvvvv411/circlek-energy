@@ -49,7 +49,7 @@ const HeizoelSorten = () => {
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Standard Heizöl EL */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-blue-600/5 rounded-2xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-red-700/5 rounded-2xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
               <div className="relative bg-white border border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-start justify-between mb-6">
                   <div className="flex items-center space-x-4">
@@ -90,7 +90,7 @@ const HeizoelSorten = () => {
 
             {/* Premium Heizöl Plus */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-blue-600/10 rounded-2xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-red-700/10 rounded-2xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
               <div className="relative bg-white border-2 border-primary/20 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="absolute top-4 right-4">
                   <div className="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">PREMIUM</div>

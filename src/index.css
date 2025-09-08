@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 0 72% 50%;
 
     --radius: 0.5rem;
 
@@ -103,7 +103,7 @@
   }
   
   .gradient-text {
-    @apply bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary to-red-700 bg-clip-text text-transparent;
   }
 }
 
