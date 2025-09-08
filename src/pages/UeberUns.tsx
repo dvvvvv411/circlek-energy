@@ -10,9 +10,9 @@ const UeberUns = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="O nas & Usługi | Blueline | Premium Dostawca Oleju Opałowego"
-        description="Blueline – Twój zaufany partner w dostawie oleju opałowego. Innowacyjna firma z Warszawy z ponad 100.000 zadowolonymi klientami w całej Polsce."
-        keywords="Blueline, Warszawa, firma oleju opałowego, premium olej opałowy, olej opałowy Polska"
+        title="O nas & Usługi | Circle K Energy | Premium Dostawca Oleju Opałowego"
+        description="Circle K Energy – Twój zaufany partner w dostawie oleju opałowego. Innowacyjna firma z Warszawy z ponad 100.000 zadowolonymi klientami w całej Polsce."
+        keywords="Circle K Energy, Warszawa, firma oleju opałowego, premium olej opałowy, olej opałowy Polska"
         canonicalUrl="https://bl-heizoel.de/o-nas"
       />
       <Header />
@@ -311,13 +311,16 @@ const UeberUns = () => {
                 
                 <div className="space-y-4">
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">Amtsgericht:</strong> Charlottenburg (Berlin) HRB 251767 B</p>
+                    <p className="text-gray-700"><strong className="text-primary">Sąd:</strong> National Court Register</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">USt-ID:</strong> DE311826397</p>
+                    <p className="text-gray-700"><strong className="text-primary">KRS:</strong> KRS0001011992</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">Geschäftsführer:</strong> Dzhamil Bulgakov</p>
+                    <p className="text-gray-700"><strong className="text-primary">NIP:</strong> PLKRS.000101199</p>
+                  </div>
+                  <div className="p-3 bg-white/60 rounded-xl border border-white/40">
+                    <p className="text-gray-700"><strong className="text-primary">Dyrektor Zarządzający:</strong> Philippe André Muheim</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
                     <p className="text-gray-700"><strong className="text-primary">Gründung:</strong> 2023</p>

@@ -16,7 +16,7 @@ const Lieferservice = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Dostawa Oleju Opałowego w Polsce | 4-7 Dni Roboczych | Blueline"
+        title="Dostawa Oleju Opałowego w Polsce | 4-7 Dni Roboczych | Circle K Energy"
         description="Niezawodna dostawa oleju opałowego w całej Polsce w 4-7 dni roboczych. Pojazdy z certyfikatem TÜV, bezpłatna dostawa od 2.000L. Zamów teraz!"
         keywords="dostawa oleju opałowego Polska, pojazdy cysternowe, certyfikat TÜV, bezpłatna dostawa, transport oleju opałowego"
         canonicalUrl="https://bl-heizoel.de/uslugi-dostawy"

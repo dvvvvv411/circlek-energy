@@ -155,7 +155,7 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-between gap-6 flex-nowrap overflow-x-auto">
               <div className="flex items-center gap-6 text-gray-400 text-sm whitespace-nowrap">
-                <span>© 2025 Blueline. Wszelkie prawa zastrzeżone.</span>
+                <span>© 2025 Circle K Energy. Wszelkie prawa zastrzeżone.</span>
                 <span>National Court Register KRS0001011992 | VAT-ID: PLKRS.000101199</span>
               </div>
               <div className="text-sm text-gray-400 bg-white/5 px-4 py-2 rounded-full border border-white/10 whitespace-nowrap">

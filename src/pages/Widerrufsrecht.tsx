@@ -7,9 +7,9 @@ const Widerrufsrecht = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEO
-        title="Prawo Odstąpienia | Blueline | Informacje prawne"
-        description="Prawo odstąpienia Blueline (BL Trade GmbH) - Wszystkie informacje prawne dotyczące zwrotów i odstąpienia od umowy zgodnie z prawem polskim."
-        keywords="prawo odstąpienia, Blueline, BL Trade GmbH, zwroty, odstąpienie od umowy"
+        title="Prawo Odstąpienia | Circle K Energy | Informacje prawne"
+        description="Prawo odstąpienia Circle K Energy Trading SA SA Oddział w Polsce - Wszystkie informacje prawne dotyczące zwrotów i odstąpienia od umowy zgodnie z prawem polskim."
+        keywords="prawo odstąpienia, Circle K Energy, zwroty, odstąpienie od umowy"
         canonicalUrl="https://bl-heizoel.de/prawo-odstapienia"
       />
       <Header />

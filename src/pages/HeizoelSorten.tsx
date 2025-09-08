@@ -10,7 +10,7 @@ const HeizoelSorten = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Rodzaje Oleju Opałowego | Standard & Premium | Blueline"
+        title="Rodzaje Oleju Opałowego | Standard & Premium | Circle K Energy"
         description="Wysokiej jakości olej opałowy: Standardowy od 2,97 zł/L i Premium Plus od 3,10 zł/L. Niskosiarczysty, zgodny z normą DIN. Zamów teraz!"
         keywords="rodzaje oleju opałowego, standardowy olej opałowy, premium olej opałowy, niskosiarczysty olej, DIN 51603-1, Polska"
         canonicalUrl="https://bl-heizoel.de/rodzaje-oleju-opalowego"

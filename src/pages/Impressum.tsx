@@ -6,9 +6,9 @@ const Impressum = () => {
   return (
     <div className="min-h-screen bg-gray-50">
         <SEO
-        title="Regulamin | Blueline | Informacje prawne"
-        description="Regulamin Blueline (BL Trade GmbH) - Wszystkie informacje prawne, dane kontaktowe i wpis w rejestrze. Amtsgericht Charlottenburg (Berlin) HRB 251767 B."
-        keywords="regulamin, Blueline, BL Trade GmbH, Berlin, HRB 251767 B, informacje prawne"
+        title="Regulamin | Circle K Energy | Informacje prawne"
+        description="Regulamin Circle K Energy Trading SA SA Oddział w Polsce - Wszystkie informacje prawne, dane kontaktowe i wpis w rejestrze. National Court Register KRS0001011992."
+        keywords="regulamin, Circle K Energy, National Court Register, KRS0001011992, informacje prawne"
         canonicalUrl="https://bl-heizoel.de/regulamin"
       />
       <Header />

@@ -28,7 +28,7 @@ export const companyInfo = {
   // Assets
   logo: "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
   
-  // Geographic Coordinates (Berlin, near Düsseldorfer Str. 10)
+  // Geographic Coordinates (Warsaw, near Puławska 86)
   geo: {
     lat: 52.499,
     lng: 13.330
