@@ -2,10 +2,10 @@
 export const companyStructuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Blueline",
+  "name": "Circle K Energy",
   "alternateName": "Circle K Energy Trading SA SA Oddział w Polsce",
   "url": "https://bl-heizoel.de",
-  "logo": "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
+  "logo": "/lovable-uploads/a73d830e-5c2b-42d7-8591-d05d0175d06d.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer service",
@@ -42,8 +42,8 @@ export const companyStructuredData = {
 export const localBusinessStructuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Blueline",
-  "image": "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
+  "name": "Circle K Energy",
+  "image": "/lovable-uploads/a73d830e-5c2b-42d7-8591-d05d0175d06d.png",
   "@id": "https://bl-heizoel.de",
   "url": "https://bl-heizoel.de",
   "address": {

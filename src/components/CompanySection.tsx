@@ -82,7 +82,7 @@ const CompanySection = () => {
             </div>
             
             <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
-              O <span className="gradient-text">Blueline</span>
+              O <span className="gradient-text">Circle K Energy</span>
             </h2>
             
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed mb-12">

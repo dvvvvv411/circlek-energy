@@ -1,6 +1,6 @@
 export const companyInfo = {
   // Brand Information
-  brandName: "Blueline",
+  brandName: "Circle K Energy",
   legalName: "Circle K Energy Trading SA SA Oddział w Polsce",
   
   // Address
@@ -26,7 +26,7 @@ export const companyInfo = {
   yearsOfExperience: "2+",
   
   // Assets
-  logo: "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
+  logo: "/lovable-uploads/a73d830e-5c2b-42d7-8591-d05d0175d06d.png",
   
   // Geographic Coordinates (Warsaw, near Puławska 86)
   geo: {

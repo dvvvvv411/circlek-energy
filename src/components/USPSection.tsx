@@ -45,7 +45,7 @@ const USPSection = () => {
             Premium Serwis Oleju Opałowego
           </div>
           <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Dlaczego <span className="gradient-text">Blueline</span>?
+            Dlaczego <span className="gradient-text">Circle K Energy</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Jesteśmy Twoim cyfrowym ekspertem oleju opałowego dla całej Polski. Odkryj nasze przekonujące zalety i premium serwis.

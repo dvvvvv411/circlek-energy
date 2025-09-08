@@ -84,7 +84,7 @@ const TrustSection = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Ponad 100.000 zadowolonych klientów już ufa naszemu premium serwisowi. 
-            Przeczytaj sam, co mówią o Blueline.
+            Przeczytaj sam, co mówią o Circle K Energy.
           </p>
         </div>
 
