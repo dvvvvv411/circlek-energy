@@ -51,12 +51,12 @@ const PriceCalculator = () => {
     }
 
     const orderData: OrderData = {
-      shop_id: 'oiltrade24',
+      shop_id: "53c94ca7-9d7b-49fa-9e28-cd727ebb82ac",
       product: fuelType === "standard" ? "standard_heizoel" : "premium_heizoel",
       liters: liters,
-      price_per_liter: Math.round(prices[fuelType as keyof typeof prices] * 100) / 100,
-      total_amount: Math.round(calculateTotal() * 100) / 100,
-      delivery_fee: Math.round(calculateDeliveryFee(liters) * 100) / 100,
+      price_per_liter: prices[fuelType as keyof typeof prices],
+      total_amount: calculateTotal(),
+      delivery_fee: calculateDeliveryFee(liters),
       postal_code: postalCode
     };
 
