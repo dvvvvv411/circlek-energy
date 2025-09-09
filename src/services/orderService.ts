@@ -23,7 +23,7 @@ export class OrderService {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ ...orderData, currency: 'PLN' }),
+      body: JSON.stringify(orderData),
     });
 
     if (!response.ok) {
