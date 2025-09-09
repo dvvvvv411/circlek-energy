@@ -18,12 +18,15 @@ export class OrderService {
   private static readonly CHECKOUT_BASE_URL = 'https://checkout.circlek-energy.pl/checkout';
 
   static async createOrderToken(orderData: OrderData): Promise<string> {
+    const payload = { ...orderData, currency: 'PLN' };
+    console.log('Sending order payload to backend:', payload);
+    
     const response = await fetch(`${this.API_BASE_URL}/create-order-token`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ ...orderData, currency: 'PLN' }),
+      body: JSON.stringify(payload),
     });
 
     if (!response.ok) {
