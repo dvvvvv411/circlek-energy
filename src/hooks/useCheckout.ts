@@ -20,8 +20,8 @@ export const useCheckout = () => {
       
       // Show success message
       toast({
-        title: "Bestellung wird verarbeitet",
-        description: "Sie werden zur Kasse weitergeleitet...",
+        title: "Przetwarzanie zamówienia",
+        description: "Za chwilę zostaniesz przekierowany do kasy...",
       });
       
       // Redirect to checkout
